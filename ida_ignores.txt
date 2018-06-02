@@ -1922,5 +1922,4 @@ $E9F5FE92D7DB981290475B0A784F5155::$BADCA52C29225A708D9C0115E5B974AC
 __locale_struct
 __va_list_tag
 __gnuc_va_list
-TextureCache::TextureResource
 struct_scene_model
