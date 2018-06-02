@@ -62,14 +62,30 @@ def ReplaceType(name, struct):
 	# Run it
 	new_id = idc.Eval(command)
 	print("Inserted type %s to index %d" % (name, new_id))
+	return new_id
 
 # Testing
 #ReplaceType("mytestingthing", "struct mytestingthing {\nchar *ptr1; struct nonexistant_struct *ptr2; };\n")
 #ReplaceType("mytestingthingi", "typedef int mytestingthingi;\n")
 
+# First, insert any types not already in the database as a typedef to void*. The purpose of this is that otherwise,
+# IDA will complain if we use them before we get around to inserting them.
+for name in stored_definitions:
+	# Skip anything already in the DB
+	if name in name_ids:
+		continue
+
+	# Predefine it
+	print("Predefining %s" % name)
+	new_id = ReplaceType(name, "typedef void* %s" % name)
+
+	# Ensure we insert over it
+	name_ids[name] = new_id
+
+# Actually insert everything
 for name in stored_definitions:
 	contents = stored_definitions[name]
-	print("Read file %s" % name)
+	print("Importing %s" % name)
 	ReplaceType(name, contents)
 
 print("Done!")
