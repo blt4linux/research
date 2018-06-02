@@ -1,0 +1,1926 @@
+__off_t
+__off64_t
+sizetype
+size_t
+int8_t
+int16_t
+int32_t
+int64_t
+__pthread_internal_list
+__pthread_list_t
+pthread_mutex_t
+pthread_mutex_t::__pthread_mutex_s
+sem_t
+_IO_FILE
+_IO_marker
+_IO_lock_t
+uint8_t
+uint16_t
+uint32_t
+uint64_t
+uintptr_t
+AkUInt8
+AkUInt16
+AkUInt32
+AkUInt64
+AkUIntPtr
+AkInt8
+AkInt16
+AkInt32
+AkInt
+AkInt64
+AkOSChar
+AkReal32
+AkEvent
+AkFourcc
+AkUniqueID
+AkPlayingID
+AkPitchValue
+AkVolumeValue
+AkGameObjectID
+AkLPFType
+AkMemPoolId
+AkPluginID
+AkCodecID
+AkAuxBusID
+AkPluginParamID
+AkPriority
+AkDataTypeID
+AkDataInterleaveID
+AkRtpcID
+AkBankID
+AkFileID
+AkDeviceID
+AkArgumentValueID
+AkChannelMask
+AKRESULT
+AkExternalSourceInfo
+AkVector
+AkSoundPosition
+AkListenerPosition
+AkPolarCoord
+AkSphericalCoord
+AkEmitterListenerPair
+AkListener
+AkSpeakerVolumes
+AkAuxSendValue
+IAkSoftwareCodec
+CAkVPLNode
+AK::SoundEngine::MultiPositionType
+AK::AkSIMDProcessorSupport
+AK::IAkPlugin
+AK::IAkPluginMemAlloc
+AK::IAkPluginParam
+AK::IAkRTPCSubscriber
+AK::CAkBusCtx
+CAkBus
+AK::IALMonitorSink
+AK::IAkInPlaceEffectPlugin
+AK::IALMonitor
+AK::IAkStreamMgr
+AK::IAkStreamMgrProfile
+AK::IAkStdStream
+AK::IAkAutoStream
+AK::IAkDeviceProfile
+AK::IAkStreamProfile
+AK::IAkSourcePlugin
+AK::IAkSourcePluginContext
+AK::IAkPluginContextBase
+AK::IAkEffectPlugin
+AK::IAkEffectPluginContext
+AK::IAkProcessorFeatures
+AkPannerType
+AkPositionSourceType
+AkPanningRule
+AkNodeType
+WwiseObjectIDext
+AkFileParser::EnvelopePoint
+AkFileParser::FormatInfo
+WaveFormatExtensible
+WaveFormatEx
+AkFileParser::AnalysisData
+AkFileParser::AnalysisDataChunk
+AkFileParser::SeekInfo
+AkVirtualQueueBehavior
+AkWwiseGameObjectID
+AkCustomParamType
+AkExternalSourceArray
+AkOutputDeviceID
+AkThreadProperties
+AkAudioFormat
+AkSampleType
+AkAudioBuffer
+CAkSmartPtr<CAkFxBase>
+CAkFxBase
+AkFXDesc
+CAkLock
+AkPluginType
+AkPluginInfo
+AkPoolNewKey
+AkSIMDSpeakerVolumes
+ArrayPoolDefault
+AkArrayAllocatorDefault
+AkMarkersHeader
+AkAudioMarker
+AkBufferMarker
+CAkPBI
+AkAudioMix
+AkBufferPosInformation
+AkPipelineBufferBase
+AkPipelineBuffer
+AkAudioBuffer:160
+AkPipelineBufferBase:160
+AkMonitorData::WatchType
+AkMonitorData::Watch
+AkMonitorData::Watch::$C1B45FB065F84795945F9501DE2C8683
+AkMonitorData::MeterWatch
+AkMonitorData::MaskType
+AkAudioBufferBus
+AkAuxType
+AkDeviceVPLArray
+CAkKeyArray<long unsigned int,AkVPL*,1u>
+AkArray<MapStruct<long unsigned int,AkVPL*>,const MapStruct<long unsigned int,AkVPL*>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+MapStruct<long unsigned int,AkVPL*>
+AkVPL
+CAkVPLMixBusNode
+CAkBusFX
+CAkMixer
+BaseGenParams
+CAkBusFX::FX
+CAkBusFXContext
+CAkBusVolumes:9152
+VPLNodeState
+AkArray<MapStruct<long unsigned int,AkVPL*>,const MapStruct<long unsigned int,AkVPL*>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+AkMergedEnvironmentValue
+AkRTPC_ParameterID
+AkPlatformInitSettings
+AkSinkType
+AkOutputSettings
+CAkUsageSlot
+UserParams
+AkStmStatus
+AkMoveMethod
+AkOpenMode
+AkFileSystemFlags
+AkStreamInfo
+AkAutoStmHeuristics
+AkAutoStmBufSettings
+AkDeviceDesc
+AkDeviceData
+AkStreamRecord
+AkStreamData
+ListAllocFlag
+AkEmitterListenerPairEx
+AkEmitterListenerPairArray
+AkArray<AkEmitterListenerPairEx,const AkEmitterListenerPairEx&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<AkEmitterListenerPairEx,const AkEmitterListenerPairEx&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+AkRayVolumeData
+AkVolumeDataArray
+AkArray<AkRayVolumeData,const AkRayVolumeData&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<AkRayVolumeData,const AkRayVolumeData&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+AkHDRParams
+AkNormalizationParams
+AkSoundParams
+AkSoundPositionRef
+AkPositionKeeper
+AkPackedZeroToOneValue
+AkSwitchHistItem
+MapStruct<unsigned int,AkSwitchHistItem>
+AkSwitchHist
+CAkKeyArray<unsigned int,AkSwitchHistItem,5u>
+AkArray<MapStruct<unsigned int,AkSwitchHistItem>,const MapStruct<unsigned int,AkSwitchHistItem>&,ArrayPoolDefault,5ul,AkArrayAllocatorDefault>
+AkListNode
+CAkList2<WwiseObjectIDext,const WwiseObjectIDext&,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkList2<WwiseObjectIDext,const WwiseObjectIDext&,(ListAllocFlag)1u,ArrayPoolDefault>::ListItem
+CAkList2<WwiseObjectIDext,const WwiseObjectIDext&,(ListAllocFlag)1u,ArrayPoolDefault>::Iterator
+CAkList2<WwiseObjectIDext,const WwiseObjectIDext&,(ListAllocFlag)1u,ArrayPoolDefault>::IteratorEx
+AkArray<MapStruct<unsigned int,AkSwitchHistItem>,const MapStruct<unsigned int,AkSwitchHistItem>&,ArrayPoolDefault,5ul,AkArrayAllocatorDefault>::Iterator
+CAkRegisteredObj
+CAkParameterNodeBase
+BusVolumeType
+AkPBIStopMode
+CAkAttenuation
+AkHashListBare<unsigned int,CAkIndexable,193u,AkDefaultHashListBarePolicy<unsigned int,CAkIndexable> >
+CAkIndexable
+AkHashListBare<unsigned int,CAkIndexable,193u,AkDefaultHashListBarePolicy<unsigned int,CAkIndexable> >::Iterator
+AkHashListBare<unsigned int,CAkIndexable,193u,AkDefaultHashListBarePolicy<unsigned int,CAkIndexable> >::IteratorEx
+CAkIndexItem<CAkState*>
+CAkIndexItem<CAkState*>::AkMapIDToPtr
+CAkState
+CAkIndexItem<CAkParameterNodeBase*>
+CAkIndexItem<CAkParameterNodeBase*>::AkMapIDToPtr
+CAkIndexItem<CAkEvent*>
+CAkIndexItem<CAkEvent*>::AkMapIDToPtr
+CAkEvent
+CAkIndexItem<CAkAction*>
+CAkIndexItem<CAkAction*>::AkMapIDToPtr
+CAkAction
+CAkIndexItem<CAkLayer*>
+CAkIndexItem<CAkLayer*>::AkMapIDToPtr
+CAkLayer
+CAkIndexItem<CAkAttenuation*>
+CAkIndexItem<CAkAttenuation*>::AkMapIDToPtr
+CAkIndexItem<CAkDynamicSequence*>
+CAkIndexItem<CAkDynamicSequence*>::AkMapIDToPtr
+CAkDynamicSequence
+CAkIndexItem<CAkDialogueEvent*>
+CAkIndexItem<CAkDialogueEvent*>::AkMapIDToPtr
+CAkDialogueEvent
+CAkIndexItem<CAkFxShareSet*>
+CAkIndexItem<CAkFxShareSet*>::AkMapIDToPtr
+CAkFxShareSet
+CAkIndexItem<CAkFxCustom*>
+CAkIndexItem<CAkFxCustom*>::AkMapIDToPtr
+CAkFxCustom
+CAkAudioLibIndex
+AkPriorityStruct
+PriorityInfo
+PriorityInfoCurrent
+AkVPLState
+AkRunningVPL
+CAkVPLSrcCbxNode
+CAkMarkers
+ogg_uint16_t
+ogg_int32_t
+CAkVorbisAllocator
+ogg_buffer
+ogg_buffer_0
+oggpack_buffer
+oggpack_buffer_0
+ogg_packet
+floor1class
+vorbis_info_floor1
+vorbis_info_mode
+codec_setup_info
+vorbis_info_mapping
+submap_0
+submap
+coupling_step_0
+coupling_step
+vorbis_info_residue
+codebook
+codec_setup_info_0
+vorbis_dsp_state2
+vorbis_dsp_state
+AkVorbisLoopInfo
+AkVorbisSeekTableItem
+AkVorbisHeaderBase
+AkVorbisInfo
+AkVorbisHeader
+WaveFormatVorbis
+OggPacketHeader
+AkVorbisDecoderState
+AkTremorInfoReturn
+AkTremorInfo
+AkVorbisSourceState
+AkSpeakerVolumesN
+CAkBusVolumes
+CAkVPLPitchNode
+LEState
+AkLECmd
+AkListVPLSrcs
+AkListBare<CAkVPLSrcCbxNode,AkListVPLSrcsNextItem,AkCountPolicyWithCount>
+CAkVPLSrcCbxNodeBase
+CAkLEngine
+CAkLEngine::AkArrayVPL
+AkArray<AkVPL*,AkVPL*,ArrayPoolLEngineDefault,4ul,AkArrayAllocatorDefault>
+CAkLEngine::AkForAllPluginParamFunc
+AkStaticArray<void*,void*,2u>
+AkVorbisCodebookMgr
+AkVorbisCodebookMgr::CodebookList
+AkHashListBare<unsigned int,AkVorbisCodebookMgr::Codebook,31u,AkDefaultHashListBarePolicy<unsigned int,AkVorbisCodebookMgr::Codebook> >
+AkVorbisCodebookMgr::Codebook
+AkHashListBare<unsigned int,AkVorbisCodebookMgr::Codebook,31u,AkDefaultHashListBarePolicy<unsigned int,AkVorbisCodebookMgr::Codebook> >::Iterator
+AkHashListBare<unsigned int,AkVorbisCodebookMgr::Codebook,31u,AkDefaultHashListBarePolicy<unsigned int,AkVorbisCodebookMgr::Codebook> >::IteratorEx
+AkDefaultHashListBarePolicy<unsigned int,CAkIndexable>
+CAkSrcFileVorbis
+CAkSrcFileBase
+CAkSrcBaseEx
+CAkVPLSrcNode
+CAkSrcFileBaseHWDecoder
+CAkTransportAware
+CAkObject
+AkDefaultHashListBarePolicy<unsigned int,AkVorbisCodebookMgr::Codebook>
+AkPlacementNewKey
+AkCtxDestroyReason
+AkSIMDSpeakerVolumes_0
+AkAudioMix_0
+CAkBusVolumes:9152_0
+CAkBusVolumes_0
+CAkSrcBankVorbis
+ogg_int16_t
+AkVorbisPacketReader
+vorbis_info_mapping_0
+AK::AkRuntimeEnvironmentMgr
+vorbis_info_residue_0
+AkMemPoolAttributes
+$806B9BA87CC87D12CA732A028B794533
+ogg_uint32_t
+codebook_0
+__m128
+__v4sf
+AKSIMD_V4F32
+AlgorithmTunings
+RTPCParams
+FilterInsertType
+FilterCurveType
+InvariantParams
+AkRoomVerbFXParams
+CAkRoomVerbFXParams
+AkReal64
+__compar_fn_t
+__v4sf_0
+AkRoomVerb::TapInfo
+AkRoomVerb::ERPatternInfo
+DSP::ERUnitDual
+DSP::AllpassFilter
+DSP::OnePoleZeroHPFilter
+DSP::DelayLine
+DSP::OnePoleFilter
+DSP::OnePoleFilter::FilterType
+DSP::FDN4
+FDNLPFilter
+DSP::Memories
+DSP::SingleChannelPolicy
+DSP::BiquadFilter<DSP::SingleChannelPolicy>
+DSP::BiquadFilter<DSP::SingleChannelPolicy>::Coefficients
+DSP::BiquadFilter<DSP::SingleChannelPolicy>::FilterType
+DSP::BiquadFilterMono
+DSP::RandNormFloat
+AkFXTailHandler
+ReverbState
+ReverbUnitState
+ToneControlsState
+CAkRoomVerbFX
+AkMath::FastPow10::IntOrFloat
+__v4sf_1
+__v4sf_2
+__v4sf_3
+__v4sf_4
+DSP::SingleOutput
+DSP::DualOutput
+DSP::TripleOutput
+__v4sf_5
+__v4sf_6
+AkBandNumber
+AkFilterType
+EQModuleParams
+AKSIMD_F32
+CAkVectorValueRampV4
+CAkVectorValueRamp
+CAkParametricEQFX
+CAkParameterEQFXParams
+AkParametricEQFXParams
+__v4sf_7
+AkPeakLimiterSideChain
+CAkPeakLimiterFX
+$DBBDFF00D81284DA76025367C7B3A204
+CAkPeakLimiterFXParams
+AkMath::FastLog10::$31C33B26DDE712CDF928E2FBD5567872
+AkPeakLimiterRTPCParams
+AkPeakLimiterNonRTPCParams
+AkPeakLimiterFXParams
+AkPeakLimiterFXParams:256
+AK::Monitor::ErrorCode
+AkChunkHeader
+CuePoint
+LabelCuePoint
+SampleChunk
+SampleLoop
+AkAssertHook
+AkInitSettings
+AkSIMDSpeakerVolumes_1
+ArrayPoolLEngineDefault
+AkAudioMix_1
+AkListenerData
+AkListener:384
+CAkBusVolumes:9152_1
+AkAuxSendValueEx
+AkDeviceInfoList
+AkListBareLight<AkDeviceInfo,AkListBareLightNextItem<AkDeviceInfo> >
+AkDeviceInfo
+AkListBareLight<AkDeviceInfo,AkListBareLightNextItem<AkDeviceInfo> >::Iterator
+AkListBareLight<AkDeviceInfo,AkListBareLightNextItem<AkDeviceInfo> >::IteratorEx
+CAkOutputDevices
+CAkSpeakerPan
+CAkSpeakerPan::PanPair
+CAkSpeakerPan::MapConfig2PanPlane
+CAkKeyArray<unsigned int,CAkSpeakerPan::PanPair*,1u>
+AkArray<MapStruct<unsigned int,CAkSpeakerPan::PanPair*>,const MapStruct<unsigned int,CAkSpeakerPan::PanPair*>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+MapStruct<unsigned int,CAkSpeakerPan::PanPair*>
+AkDevice
+CAkVPLFinalMixNode
+CAkBusFX:10464
+CAkSink
+CAkBusVolumes_1
+CAkListener
+AkArray<MapStruct<unsigned int,CAkSpeakerPan::PanPair*>,const MapStruct<unsigned int,CAkSpeakerPan::PanPair*>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+AkArray<AkDevice,AkDevice&,ArrayPoolLEngineDefault,1ul,AkArrayAllocatorDefault>
+AkArray<AkDevice,AkDevice&,ArrayPoolLEngineDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkOutputMgr
+AkListBareLightNextItem<AkDeviceInfo>
+CAkSinkSDL2
+CAkSinkDummy
+AkFXMemAlloc
+pthread_cond_t
+pthread_cond_t::$DD3887E3CBD9D9CCE255083514A7C532
+AkTimeMs
+AkCurveInterpolation
+AK::SoundEngine::Query::AkGameObjectsList
+AkArray<long unsigned int,long unsigned int,ArrayPoolDefault,32ul,AkArrayAllocatorDefault>
+__v4sf_8
+AkPathMode
+AkSIMDSpeakerVolumes_2
+AkSIMDSpeakerVolumes::$E293628F040AB3496080289D990A3D73
+AkAudioMix_2
+AkListenerData_0
+CAkBusVolumes:9152_2
+CAkAttenuation::AkAttenuationCurve
+CAkConversionTable<AkRTPCGraphPointBase<float>,float>
+AkRTPCGraphPointBase<float>
+AkCurveScaling
+AkCallbackType
+AkCallbackInfo
+AkEventCallbackInfo
+AkSpeakerVolumeMatrixCallbackInfo
+AkMusicSyncCallbackInfo
+AkCallbackFunc
+AkSpeakerVolumeMatrixBusCallbackInfo
+AkBusCallbackFunc
+AkRTPCGraphPoint
+AkMusicGrid
+AkHashList<long unsigned int,CAkRegisteredObj*,193u>
+AkHashList<long unsigned int,CAkRegisteredObj*,193u>::Item
+AkHashList<long unsigned int,CAkRegisteredObj*,193u>::Iterator
+AkHashList<long unsigned int,CAkRegisteredObj*,193u>::IteratorEx
+CAkRegistryMgr
+CAkRegistryMgr::AkMapRegisteredObj
+AttenuationCurveID
+Gen3DParams
+AkPathVertex
+AkPathListItem
+AkAutoLock<CAkLock>
+CAkEnvironmentsMgr
+CAkEnvironmentsMgr::eCurveXType
+CAkEnvironmentsMgr::eCurveYType
+AkManualEvent
+MapStruct<unsigned int,void (*)(AkSpeakerVolumeMatrixBusCallbackInfo*)>
+AkArray<MapStruct<unsigned int,void (*)(AkSpeakerVolumeMatrixBusCallbackInfo*)>,const MapStruct<unsigned int,void (*)(AkSpeakerVolumeMatrixBusCallbackInfo*)>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+AkArray<MapStruct<unsigned int,void (*)(AkSpeakerVolumeMatrixBusCallbackInfo*)>,const MapStruct<unsigned int,void (*)(AkSpeakerVolumeMatrixBusCallbackInfo*)>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+CAkKeyArray<unsigned int,void (*)(AkSpeakerVolumeMatrixBusCallbackInfo*),4u>
+CAkBusCallbackMgr
+CAkBusCallbackMgr::AkListCallbacks
+CAkPlayingMgr
+CAkPlayingMgr::AkPlayingMap
+AkHashListBare<unsigned int,CAkPlayingMgr::PlayingMgrItem,31u,CAkPlayingMgr::PlayingMgrItemPolicy>
+CAkPlayingMgr::PlayingMgrItem
+CAkPlayingMgr::PlayingMgrItemPolicy
+AkHashListBare<unsigned int,CAkPlayingMgr::PlayingMgrItem,31u,CAkPlayingMgr::PlayingMgrItemPolicy>::Iterator
+AkHashListBare<unsigned int,CAkPlayingMgr::PlayingMgrItem,31u,CAkPlayingMgr::PlayingMgrItemPolicy>::IteratorEx
+AkQueuedMsg_EventBase
+CAkBusVolumes_2
+CAkGen3DParams
+pthread_t
+intptr_t
+AkIntPtr
+AkThread
+AkThreadID
+AkSwitchGroupID
+AkSwitchStateID
+AkGroupType
+AK::SoundEngine::AkBankContent
+AK::SoundEngine::Query::AkRadiusList
+AkArray<AK::SoundEngine::Query::GameObjDst,const AK::SoundEngine::Query::GameObjDst&,ArrayPoolDefault,32ul,AkArrayAllocatorDefault>
+AkBelowThresholdBehavior
+AkRTPCGraphPointInteger
+AkRTPCGraphPointBase<unsigned int>
+ParamType
+AkPropID
+AkPropValue
+AkPropValue::$2B0F42C14AABAB8479CF4AB28F9F1FD5
+AkLoop
+AkValueMeaning
+AkPBIModValues
+AkMutedMapItem
+MapStruct<AkMutedMapItem,float>
+AkMutedMap
+CAkKeyArray<AkMutedMapItem,float,2u>
+AkArray<MapStruct<AkMutedMapItem,float>,const MapStruct<AkMutedMapItem,float>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+CAkSmartPtr<CAkRanSeqCntr>
+CAkRanSeqCntr
+CAkSmartPtr<CAkMultiPlayNode>
+CAkMultiPlayNode
+CAkContinueListItem
+CAkContainerBaseInfo
+CAkContinuationList
+CAkContinuationList::AkContinueListItem
+AkArray<CAkContinueListItem,const CAkContinueListItem&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+AkArray<CAkContinueListItem,const CAkContinueListItem&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+AkBankCallbackFunc
+AkBank::AKBKSubHircSection
+AkBank::AkBankHeader
+AkBank::MediaHeader
+AkMediaID
+AkBankKey
+CAkUsageSlot::AkListLoadedItem
+AkArray<CAkIndexable*,CAkIndexable*,ArrayPoolDefault,0ul,AkArrayAllocatorDefault>
+AkPlaybackState
+ActionParamType
+AkPathInfo
+CAkPath
+CAkPath::State
+CAkPath::AkPBIList
+AkArray<CAkPBI*,CAkPBI*,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+ITransitionable
+PlaybackTransition
+CAkTransition
+CAkTransition::AkTransitionUsersList
+AkArray<ITransitionable*,ITransitionable*,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+CAkTransition::State
+CAkSoundBase
+CAkSource
+AkSrcTypeInfo
+AkMediaInformation
+AkSrcTypeInfo::$1962B4359C579DB62242220FAA68A0E9
+AkSoundParamsEx
+CAkCntrHist
+AkCntrHistArray
+CAkPBI::$EFEE23B7C3955195A237800F0289D21D
+Prev2DParams
+CAkLimiter
+CAkLimiter::AkSortedPBIPriorityList
+AkSortedKeyArray<AkPriorityStruct,CAkPBI*,ArrayPoolDefault,CAkLimiter::AkSortedPBIGetKey,8ul>
+AkArray<CAkPBI*,CAkPBI* const&,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>
+CAkKeyArray<unsigned int,float [9],1u>
+AkArray<MapStruct<unsigned int,float [9]>,const MapStruct<unsigned int,float [9]>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+MapStruct<unsigned int,float [9]>
+CAkSmartPtr<CAkContinuationList>
+ContParams
+TransParams
+AkPathStepOrContinuous
+AkPathStepOnNewSound
+AkSrcType
+AkSIMDSpeakerVolumes_3
+CAkPBI::PBIInitialState
+AkAudioMix_3
+AkListenerData_1
+AkMonitorData::NotificationReason
+CAkBusVolumes:9152_3
+CAkBitArray<unsigned int>
+PlayHistory
+CAkAttenuation::RTPCSubs
+CAkAttenuation::RTPCSubsArray
+AkArray<CAkAttenuation::RTPCSubs,const CAkAttenuation::RTPCSubs&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+AkArray<CAkAttenuation::RTPCSubs,const CAkAttenuation::RTPCSubs&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+AkPositioning_ParameterID
+AkPathState
+CAkSwitchAware
+AkCtxState
+AkCtxVirtualHandlingResult
+KickFrom
+AkPBIParams
+AkPBIParams::ePBIType
+CAkPBIAware
+AkArray<MapStruct<AkMutedMapItem,float>,const MapStruct<AkMutedMapItem,float>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+CAkBankReader
+CAkBankCallbackMgr
+CAkBankCallbackMgr::AkListCookies
+CAkKeyArray<void*,CAkBankCallbackMgr::BankCallbackItem,4u>
+AkArray<MapStruct<void*,CAkBankCallbackMgr::BankCallbackItem>,const MapStruct<void*,CAkBankCallbackMgr::BankCallbackItem>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+MapStruct<void*,CAkBankCallbackMgr::BankCallbackItem>
+CAkBankCallbackMgr::BankCallbackItem
+AkArray<MapStruct<void*,CAkBankCallbackMgr::BankCallbackItem>,const MapStruct<void*,CAkBankCallbackMgr::BankCallbackItem>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+AkHashListBare<AkBankKey,CAkUsageSlot,31u,AkDefaultHashListBarePolicy<AkBankKey,CAkUsageSlot> >
+AkHashListBare<AkBankKey,CAkUsageSlot,31u,AkDefaultHashListBarePolicy<AkBankKey,CAkUsageSlot> >::Iterator
+AkHashListBare<AkBankKey,CAkUsageSlot,31u,AkDefaultHashListBarePolicy<AkBankKey,CAkUsageSlot> >::IteratorEx
+CAkBankList
+CAkBankList::AkListLoadedBanks
+AkMediaInfo
+AkArray<MapStruct<CAkUsageSlot*,AkMediaInfo>,const MapStruct<CAkUsageSlot*,AkMediaInfo>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+MapStruct<CAkUsageSlot*,AkMediaInfo>
+AkArray<MapStruct<CAkUsageSlot*,AkMediaInfo>,const MapStruct<CAkUsageSlot*,AkMediaInfo>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkKeyArray<CAkUsageSlot*,AkMediaInfo,1u>
+AkMediaEntry
+AkMediaEntry::AkBankSlotsArray
+AkBankCompletionNotifInfo
+AkBankCompletionItem
+AkPrepareEventQueueItemLoad
+AkPrepareEventQueueItemLoad::$5EF09D11C88BAD7CF4664ACA85C0B9FE
+AkPrepareGameSyncQueueItem
+AkPrepareGameSyncQueueItem::$ED2DCCBD60D26F9060EC23AF6D60E404
+AkArray<CAkIndexable*,CAkIndexable*,ArrayPoolDefault,0ul,AkArrayAllocatorDefault>::Iterator
+AkBankLoadFlag
+AkBankSourceData
+CAkBankMgr
+CAkBankMgr::AkBankQueue
+CAkList2<CAkBankMgr::AkBankQueueItem,const CAkBankMgr::AkBankQueueItem&,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkList2<CAkBankMgr::AkBankQueueItem,const CAkBankMgr::AkBankQueueItem&,(ListAllocFlag)1u,ArrayPoolDefault>::ListItem
+CAkBankMgr::AkMediaHashTable
+AkHashList<unsigned int,AkMediaEntry,193u>
+AkHashList<unsigned int,AkMediaEntry,193u>::Item
+CAkBankMgr::AkIDtoStringHash
+AkHashList<unsigned int,char*,31u>
+AkHashList<unsigned int,char*,31u>::Item
+CAkBankMgr::AkSortedPreparationList
+AkSortedKeyArray<AkMediaInformation,AkSrcTypeInfo,ArrayPoolDefault,CAkBankMgr::AkSortedPreparationListGetKey,8ul>
+AkArray<AkSrcTypeInfo,const AkSrcTypeInfo&,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>
+CAkBankMgr::AkBankQueueItemType
+CAkBankMgr::AkBankQueueItemLoad
+CAkBankMgr::AkBankPreparation
+CAkBankMgr::AkLoadMediaFile
+CAkBankMgr::AkBankQueueItem
+CAkBankMgr::AkBankQueueItem::$8E7338BA575BF40C2DAA795655F69211
+CAkBankMgr::AkLoadBankDataMode
+CAkBankMgr::AkAlignedPtrSet
+CAkBankMgr::AkSortedPreparationListGetKey
+CAkList2<CAkBankMgr::AkBankQueueItem,const CAkBankMgr::AkBankQueueItem&,(ListAllocFlag)1u,ArrayPoolDefault>::Iterator
+CAkList2<CAkBankMgr::AkBankQueueItem,const CAkBankMgr::AkBankQueueItem&,(ListAllocFlag)1u,ArrayPoolDefault>::IteratorEx
+AkHashList<unsigned int,AkMediaEntry,193u>::Iterator
+AkHashList<unsigned int,AkMediaEntry,193u>::IteratorEx
+AkHashList<unsigned int,char*,31u>::Iterator
+AkHashList<unsigned int,char*,31u>::IteratorEx
+AkArray<AkSrcTypeInfo,const AkSrcTypeInfo&,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>::Iterator
+GameObjExceptArray
+AkArray<CAkRegisteredObj*,CAkRegisteredObj*,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>
+AkRTPCSubscriptionKey
+AkSwitchKey
+CAkRTPCMgr
+CAkRTPCMgr::AkMapRTPCEntries
+AkHashListBare<unsigned int,CAkRTPCMgr::AkRTPCEntry,193u,AkDefaultHashListBarePolicy<unsigned int,CAkRTPCMgr::AkRTPCEntry> >
+CAkRTPCMgr::AkRTPCEntry
+CAkRTPCMgr::AkRTPCValues
+AkSortedKeyArray<CAkRegisteredObj*,CAkRTPCMgr::AkRTPCValue,ArrayPoolDefault,CAkRTPCMgr::AkRTPCValueGetKey,8ul>
+AkArray<CAkRTPCMgr::AkRTPCValue,const CAkRTPCMgr::AkRTPCValue&,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>
+CAkRTPCMgr::AkRTPCValue
+CAkRTPCMgr::AkRTPCTransitions
+AkListBareLight<CAkRTPCMgr::CAkRTPCTransition,AkListBareLightNextItem<CAkRTPCMgr::CAkRTPCTransition> >
+CAkRTPCMgr::CAkRTPCTransition
+CAkRTPCMgr::AkRTPCSubscriptions
+AkSortedKeyArray<CAkRTPCMgr::AkRTPCSubscription*,CAkRTPCMgr::AkRTPCSubscription*,ArrayPoolDefault,CAkRTPCMgr::AkSubsPtrGetKey,2ul>
+AkArray<CAkRTPCMgr::AkRTPCSubscription*,CAkRTPCMgr::AkRTPCSubscription* const&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+CAkRTPCMgr::AkRTPCSubscription
+CAkRTPCMgr::SubscriberType
+CAkRTPCMgr::RTPCCurveArray
+AkArray<CAkRTPCMgr::RTPCCurve,const CAkRTPCMgr::RTPCCurve&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+CAkRTPCMgr::RTPCCurve
+CAkRTPCMgr::AkMapSwitchEntries
+AkHashList<AkSwitchKey,unsigned int,193u>
+AkHashList<AkSwitchKey,unsigned int,193u>::Item
+CAkRTPCMgr::AkMapRTPCSubscribers
+AkHashListBare<AkRTPCSubscriptionKey,CAkRTPCMgr::AkRTPCSubscription,193u,AkDefaultHashListBarePolicy<AkRTPCSubscriptionKey,CAkRTPCMgr::AkRTPCSubscription> >
+CAkRTPCMgr::AkListSwitchSubscribers
+CAkList2<CAkRTPCMgr::AkSwitchSubscription,const CAkRTPCMgr::AkSwitchSubscription&,(ListAllocFlag)2u,ArrayPoolDefault>
+CAkList2<CAkRTPCMgr::AkSwitchSubscription,const CAkRTPCMgr::AkSwitchSubscription&,(ListAllocFlag)2u,ArrayPoolDefault>::ListItem
+CAkRTPCMgr::AkListRTPCSwitch
+CAkList2<CAkRTPCMgr::AkRTPCSwitchAssociation,const CAkRTPCMgr::AkRTPCSwitchAssociation&,(ListAllocFlag)2u,ArrayPoolDefault>
+CAkList2<CAkRTPCMgr::AkRTPCSwitchAssociation,const CAkRTPCMgr::AkRTPCSwitchAssociation&,(ListAllocFlag)2u,ArrayPoolDefault>::ListItem
+CAkRTPCMgr::AkSwitchSubscription
+CAkRTPCMgr::AkRTPCSwitchAssociation
+CAkConversionTable<AkRTPCGraphPointBase<unsigned int>,unsigned int>
+CAkRTPCMgr::AkListRTPCSwitchSubscribers
+CAkList2<CAkSwitchAware*,CAkSwitchAware*,(ListAllocFlag)2u,ArrayPoolDefault>
+CAkList2<CAkSwitchAware*,CAkSwitchAware*,(ListAllocFlag)2u,ArrayPoolDefault>::ListItem
+CAkRTPCMgr::AkRTPCValueGetKey
+CAkRTPCMgr::AkSubsPtrGetKey
+AkArray<CAkRTPCMgr::RTPCCurve,const CAkRTPCMgr::RTPCCurve&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkList2<CAkSwitchAware*,CAkSwitchAware*,(ListAllocFlag)2u,ArrayPoolDefault>::Iterator
+CAkList2<CAkSwitchAware*,CAkSwitchAware*,(ListAllocFlag)2u,ArrayPoolDefault>::IteratorEx
+AkListBareLight<CAkRTPCMgr::CAkRTPCTransition,AkListBareLightNextItem<CAkRTPCMgr::CAkRTPCTransition> >::Iterator
+AkListBareLight<CAkRTPCMgr::CAkRTPCTransition,AkListBareLightNextItem<CAkRTPCMgr::CAkRTPCTransition> >::IteratorEx
+AkArray<CAkRTPCMgr::AkRTPCValue,const CAkRTPCMgr::AkRTPCValue&,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>::Iterator
+AkArray<CAkRTPCMgr::AkRTPCSubscription*,CAkRTPCMgr::AkRTPCSubscription* const&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+AkHashListBare<unsigned int,CAkRTPCMgr::AkRTPCEntry,193u,AkDefaultHashListBarePolicy<unsigned int,CAkRTPCMgr::AkRTPCEntry> >::Iterator
+AkHashListBare<unsigned int,CAkRTPCMgr::AkRTPCEntry,193u,AkDefaultHashListBarePolicy<unsigned int,CAkRTPCMgr::AkRTPCEntry> >::IteratorEx
+AkHashList<AkSwitchKey,unsigned int,193u>::Iterator
+AkHashList<AkSwitchKey,unsigned int,193u>::IteratorEx
+AkHashListBare<AkRTPCSubscriptionKey,CAkRTPCMgr::AkRTPCSubscription,193u,AkDefaultHashListBarePolicy<AkRTPCSubscriptionKey,CAkRTPCMgr::AkRTPCSubscription> >::Iterator
+AkHashListBare<AkRTPCSubscriptionKey,CAkRTPCMgr::AkRTPCSubscription,193u,AkDefaultHashListBarePolicy<AkRTPCSubscriptionKey,CAkRTPCMgr::AkRTPCSubscription> >::IteratorEx
+CAkList2<CAkRTPCMgr::AkSwitchSubscription,const CAkRTPCMgr::AkSwitchSubscription&,(ListAllocFlag)2u,ArrayPoolDefault>::Iterator
+CAkList2<CAkRTPCMgr::AkSwitchSubscription,const CAkRTPCMgr::AkSwitchSubscription&,(ListAllocFlag)2u,ArrayPoolDefault>::IteratorEx
+CAkList2<CAkRTPCMgr::AkRTPCSwitchAssociation,const CAkRTPCMgr::AkRTPCSwitchAssociation&,(ListAllocFlag)2u,ArrayPoolDefault>::Iterator
+CAkList2<CAkRTPCMgr::AkRTPCSwitchAssociation,const CAkRTPCMgr::AkRTPCSwitchAssociation&,(ListAllocFlag)2u,ArrayPoolDefault>::IteratorEx
+AkChildArray
+AkArray<CAkParameterNodeBase*,CAkParameterNodeBase*,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<CAkParameterNodeBase*,CAkParameterNodeBase*,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+AKVoiceLimiterType
+CAkLimiter::AkSortedPBIGetKey
+CAkLimiter::AkLimiterKey
+AkArray<CAkPBI*,CAkPBI* const&,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>::Iterator
+StructMaxInst
+MapStruct<CAkRegisteredObj*,StructMaxInst>
+AkPerObjPlayCount
+CAkKeyArray<CAkRegisteredObj*,StructMaxInst,2u>
+AkArray<MapStruct<CAkRegisteredObj*,StructMaxInst>,const MapStruct<CAkRegisteredObj*,StructMaxInst>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+AkArray<MapStruct<CAkRegisteredObj*,StructMaxInst>,const MapStruct<CAkRegisteredObj*,StructMaxInst>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+AkListBareLight<CAkPBI,AkListBareLightNextItem<CAkPBI> >
+AkListBareLight<CAkPBI,AkListBareLightNextItem<CAkPBI> >::Iterator
+AkListBareLight<CAkPBI,AkListBareLightNextItem<CAkPBI> >::IteratorEx
+AkActivityChunk
+AkActivityChunk::AkListLightCtxs
+NotifParams
+CounterParameters
+CAkBitArray<long unsigned int>
+AkArray<ITransitionable*,ITransitionable*,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+TransitionParameters
+AkArray<CAkPBI*,CAkPBI*,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+AkArray<MapStruct<unsigned int,float [9]>,const MapStruct<unsigned int,float [9]>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+AkArray<CAkPath*,CAkPath*,ArrayPoolDefault,0ul,AkArrayAllocatorDefault>
+AkArray<CAkPath*,CAkPath*,ArrayPoolDefault,0ul,AkArrayAllocatorDefault>::Iterator
+CAkPathManager
+CAkPathManager::AkPathList
+CAkParameterNode
+TransitionTargets
+CAkTransitionManager
+CAkTransitionManager::AkTransitionList
+AkArray<CAkTransition*,CAkTransition*,ArrayPoolDefault,0ul,AkArrayAllocatorDefault>
+CAkTransitionManager::AkTransitionCategory
+AkArray<CAkTransition*,CAkTransition*,ArrayPoolDefault,0ul,AkArrayAllocatorDefault>::Iterator
+AkArray<CAkParameterNodeBase*,CAkParameterNodeBase* const&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<CAkParameterNodeBase*,CAkParameterNodeBase* const&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkURenderer
+CAkURenderer::AkListCtxs
+AkListBare<CAkPBI,AkListBareNextItem<CAkPBI>,AkCountPolicyWithCount>
+CAkURenderer::AkContextNotifQueue
+CAkList2<CAkURenderer::ContextNotif,const CAkURenderer::ContextNotif&,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkURenderer::AkListLightLimiters
+AkListBareLight<CAkLimiter,AkListBareLightNextItem<CAkLimiter> >
+CAkBusVolumes_3
+AkListVPLSrcsBase
+AkListBare<CAkVPLSrcCbxNodeBase,AkListBareNextItem<CAkVPLSrcCbxNodeBase>,AkCountPolicyNoCount>
+AkCountPolicyNoCount<CAkVPLSrcCbxNodeBase>
+AkListBare<CAkVPLSrcCbxNodeBase,AkListBareNextItem<CAkVPLSrcCbxNodeBase>,AkCountPolicyNoCount>::Iterator
+AkListBare<CAkVPLSrcCbxNodeBase,AkListBareNextItem<CAkVPLSrcCbxNodeBase>,AkCountPolicyNoCount>::IteratorEx
+CAkLEngineCmds
+CAkLEngineCmds::AkListCmd
+CAkList2<AkLECmd,const AkLECmd&,(ListAllocFlag)1u,ArrayPoolLEngineDefault>
+AkListBareLightNextItem<CAkRTPCMgr::CAkRTPCTransition>
+AkListBareLightNextItem<CAkPBI>
+AkListBareNextItem<CAkVPLSrcCbxNodeBase>
+AkDefaultHashListBarePolicy<AkBankKey,CAkUsageSlot>
+AkDefaultHashListBarePolicy<unsigned int,CAkRTPCMgr::AkRTPCEntry>
+AkDefaultHashListBarePolicy<AkRTPCSubscriptionKey,CAkRTPCMgr::AkRTPCSubscription>
+pthread_mutexattr_t
+pthread_condattr_t
+AkStateID
+AkStateGroupID
+AkRtpcValue
+AkTriggerID
+AkCreateFileSourceCallback
+AkCreateBankSourceCallback
+AK::SoundEngine::AkActionOnEventType
+AK::SoundEngine::PreparationType
+AK::SoundEngine::AkSyncCaller
+AK::SoundEngine::AkBankSyncLoader
+AK::SoundEngine::AkCommandPriority
+AK::SoundEngine::DynamicSequence::PlaylistItem
+AK::SoundEngine::DynamicSequence::Playlist
+AkArray<AK::SoundEngine::DynamicSequence::PlaylistItem,const AK::SoundEngine::DynamicSequence::PlaylistItem&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+AK::SoundEngine::DynamicSequence::DynamicSequenceType
+AK::Monitor::ErrorLevel
+AK::Monitor::LocalOutputFunc
+AK::Hash32
+AK::Hash32::HashType
+AK::FNVHash<AK::Hash32>
+AK::Comm::ICommunicationCentral
+AK::Comm::ICommunicationCentralNotifyHandler
+AK::Comm::ICommandChannelHandler
+AK::Comm::INotificationChannel
+AK::FNVHash32
+AkCreatePluginCallback
+AkCreateParamCallback
+AkGlobalCallbackFunc
+AkExternalStateHandlerCallback
+AkExternalBankHandlerCallback
+AkExternalProfileHandlerCallback
+AkSparseChunkRing
+AkSparseChunkRing::BlockArray
+AkArray<AkSparseChunkRing::Block,const AkSparseChunkRing::Block&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+AkSparseChunkRing::Block
+AkArray<AkSparseChunkRing::Block,const AkSparseChunkRing::Block&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+ExceptionList
+AkArray<WwiseObjectIDext,const WwiseObjectIDext&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+AkArray<WwiseObjectIDext,const WwiseObjectIDext&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+AkArray<unsigned int,unsigned int,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+AkArray<unsigned int,unsigned int,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+CAkPreparedContent
+CAkPreparedContent::ContentList
+AkStateTransition
+AkListBareLightNextInGroup
+AkStateGroupChunk
+AkListBareLight<AkStateGroupChunk,AkListBareLightNextInGroup>
+AkListBareLight<AkStateGroupChunk,AkListBareLightNextInGroup>::Iterator
+AkListBareLight<AkStateGroupChunk,AkListBareLightNextInGroup>::IteratorEx
+MapStruct<AkStateTransition,int>
+AkArray<MapStruct<AkStateTransition,int>,const MapStruct<AkStateTransition,int>&,ArrayPoolDefault,5ul,AkArrayAllocatorDefault>
+AkArray<MapStruct<AkStateTransition,int>,const MapStruct<AkStateTransition,int>&,ArrayPoolDefault,5ul,AkArrayAllocatorDefault>::Iterator
+CAkKeyArray<AkStateTransition,int,5u>
+AkStateGroupInfo
+AkStateGroupInfo::MemberList
+CAkStateMgr
+CAkStateMgr::AkListStateGroups
+CAkKeyArray<unsigned int,AkStateGroupInfo*,4u>
+AkArray<MapStruct<unsigned int,AkStateGroupInfo*>,const MapStruct<unsigned int,AkStateGroupInfo*>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+MapStruct<unsigned int,AkStateGroupInfo*>
+CAkStateMgr::AkListRegisteredSwitch
+CAkList2<CAkStateMgr::RegisteredSwitch,const CAkStateMgr::RegisteredSwitch&,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkList2<CAkStateMgr::RegisteredSwitch,const CAkStateMgr::RegisteredSwitch&,(ListAllocFlag)1u,ArrayPoolDefault>::ListItem
+CAkStateMgr::AkListRegisteredTrigger
+CAkList2<CAkStateMgr::RegisteredTrigger,const CAkStateMgr::RegisteredTrigger&,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkList2<CAkStateMgr::RegisteredTrigger,const CAkStateMgr::RegisteredTrigger&,(ListAllocFlag)1u,ArrayPoolDefault>::ListItem
+CAkStateMgr::PreparationGroups
+AkListBare<CAkStateMgr::PreparationStateItem,AkListBareNextItem<CAkStateMgr::PreparationStateItem>,AkCountPolicyNoCount>
+AkCountPolicyNoCount<CAkStateMgr::PreparationStateItem>
+CAkStateMgr::PreparationStateItem
+CAkStateMgr::PreparationStateItem::PreparationList
+AkListBare<CAkPreparationAware,CAkStateMgr::PreparationStateItem::AkListBareNextItemPrepare,AkCountPolicyNoCount>
+AkCountPolicyNoCount<CAkPreparationAware>
+CAkPreparationAware
+CAkStateMgr::PreparationStateItem::AkListBareNextItemPrepare
+CAkStateMgr::RegisteredSwitch
+CAkStateMgr::RegisteredTrigger
+IAkTriggerAware
+AkListBare<CAkPreparationAware,CAkStateMgr::PreparationStateItem::AkListBareNextItemPrepare,AkCountPolicyNoCount>::Iterator
+AkListBare<CAkPreparationAware,CAkStateMgr::PreparationStateItem::AkListBareNextItemPrepare,AkCountPolicyNoCount>::IteratorEx
+AkArray<MapStruct<unsigned int,AkStateGroupInfo*>,const MapStruct<unsigned int,AkStateGroupInfo*>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+CAkList2<CAkStateMgr::RegisteredSwitch,const CAkStateMgr::RegisteredSwitch&,(ListAllocFlag)1u,ArrayPoolDefault>::Iterator
+CAkList2<CAkStateMgr::RegisteredSwitch,const CAkStateMgr::RegisteredSwitch&,(ListAllocFlag)1u,ArrayPoolDefault>::IteratorEx
+CAkList2<CAkStateMgr::RegisteredTrigger,const CAkStateMgr::RegisteredTrigger&,(ListAllocFlag)1u,ArrayPoolDefault>::Iterator
+CAkList2<CAkStateMgr::RegisteredTrigger,const CAkStateMgr::RegisteredTrigger&,(ListAllocFlag)1u,ArrayPoolDefault>::IteratorEx
+AkListBare<CAkStateMgr::PreparationStateItem,AkListBareNextItem<CAkStateMgr::PreparationStateItem>,AkCountPolicyNoCount>::Iterator
+AkListBare<CAkStateMgr::PreparationStateItem,AkListBareNextItem<CAkStateMgr::PreparationStateItem>,AkCountPolicyNoCount>::IteratorEx
+CAkAudioThread
+AkQueuedMsgType
+AkQueuedMsg_Event
+AkSourcePluginActionType
+AkQueuedMsg_SourcePluginAction
+AkQueuedMsg_EventAction
+AkQueuedMsg_Rtpc
+AkQueuedMsg_RtpcWithTransition
+AkQueuedMsg_State
+AkQueuedMsg_Switch
+AkQueuedMsg_Trigger
+AkQueuedMsg_RegisterGameObj
+AkQueuedMsg_UnregisterGameObj
+AkQueuedMsg_GameObjPosition
+AkQueuedMsg_GameObjMultiplePosition
+AkQueuedMsg_GameObjActiveListeners
+AkQueuedMsg_GameObjActiveControllers
+AkQueuedMsg_ListenerPosition
+AkQueuedMsg_ListenerSpatialization
+AkQueuedMsg_ListenerPipeline
+AkQueuedMsg_SetPlayerListener
+AkQueuedMsg_SetPlayerVolume
+AkQueuedMsg_AddRemovePlayerDevice
+AkQueuedMsg_GameObjEnvValues
+AkQueuedMsg_GameObjDryLevel
+AkQueuedMsg_GameObjScalingFactor
+AkQueuedMsg_ListenerScalingFactor
+AkQueuedMsg_Seek
+AkQueuedMsg_Seek::$23A492A56911A56A2892CB682671E76E
+AkQueuedMsg_GameObjObstruction
+AkQueuedMsg_ResetSwitches
+AkQueuedMsg_ResetRTPC
+AkQueuedMsg_ResetRTPCValue
+AkQueuedMsg_ResetRtpcValueWithTransition
+AkQueuedMsg_SetSecondaryOutputVolume
+AkQueuedMsg_OpenDynamicSequence
+AkQueuedMsg_KillBank
+AkQueuedMsg_StopAll
+AkQueuedMsg_StopPlayingID
+AkQueuedMsg_DynamicSequenceCmd
+AkQueuedMsg_DynamicSequenceCmd::Command
+AkQueuedMsg_StartStopCapture
+AkQueuedMsg_SetEffect
+AkQueuedMsg_SetPanningRule
+AkQueuedMsg_SetSpeakerAngles
+AkQueuedMsg_SetProcessMode
+AkQueuedMsg
+AkQueuedMsg::$8A227F8630674C7B1C52B68C0495BE7F
+CAkList2<MapStruct<unsigned int,AkPendingAction*>,const MapStruct<unsigned int,AkPendingAction*>&,(ListAllocFlag)2u,ArrayPoolDefault>
+CAkList2<MapStruct<unsigned int,AkPendingAction*>,const MapStruct<unsigned int,AkPendingAction*>&,(ListAllocFlag)2u,ArrayPoolDefault>::ListItem
+CAkList2<MapStruct<unsigned int,AkPendingAction*>,const MapStruct<unsigned int,AkPendingAction*>&,(ListAllocFlag)2u,ArrayPoolDefault>::Iterator
+CAkList2<MapStruct<unsigned int,AkPendingAction*>,const MapStruct<unsigned int,AkPendingAction*>&,(ListAllocFlag)2u,ArrayPoolDefault>::IteratorEx
+MapStruct<unsigned int,AkPendingAction*>
+CAkKeyList<unsigned int,AkPendingAction*,(ListAllocFlag)2u,ArrayPoolDefault>
+AkPendingAction
+CAkMultiKeyList<unsigned int,AkPendingAction*,(ListAllocFlag)2u>
+CAkAudioMgr
+CAkAudioMgr::AkMultimapPending
+CAkAudioMgr::AkMultimapPausedPending
+CAkContinuousPBI
+CAkEffectsMgr
+CAkEffectsMgr::FXList
+CAkKeyArray<unsigned int,CAkEffectsMgr::EffectTypeRecord,2u>
+CAkEffectsMgr::CodecList
+CAkKeyArray<unsigned int,CAkEffectsMgr::CodecTypeRecord,2u>
+AkArray<AK::SoundEngine::DynamicSequence::PlaylistItem,const AK::SoundEngine::DynamicSequence::PlaylistItem&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+AkDecisionTree
+AkDecisionTree::Node
+AkDecisionTree::Node::$3317AE185374F6FAF77FBDAABA85A2E3
+AkDecisionTree::Children
+AkDecisionTree::WeightedDecisionInfo
+AkDecisionTree::WeightedCandidates
+AkDecisionTree::NodeArray
+AkArray<AkDecisionTree::Node*,AkDecisionTree::Node*,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+AkDecisionTree::SwitchNodeAssoc
+CAkKeyArray<unsigned int,unsigned int,8u>
+AkArray<MapStruct<unsigned int,unsigned int>,const MapStruct<unsigned int,unsigned int>&,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>
+MapStruct<unsigned int,unsigned int>
+AkArray<AkDecisionTree::Node*,AkDecisionTree::Node*,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+CAkFunctionCritical
+AkArray<MapStruct<unsigned int,unsigned int>,const MapStruct<unsigned int,unsigned int>&,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>::Iterator
+AkPositionInfo
+MapStruct<unsigned int,AkPositionInfo>
+AkArray<MapStruct<unsigned int,AkPositionInfo>,const MapStruct<unsigned int,AkPositionInfo>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<MapStruct<unsigned int,AkPositionInfo>,const MapStruct<unsigned int,AkPositionInfo>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkKeyArray<unsigned int,AkPositionInfo,1u>
+CAkPositionRepository
+BehavioralExtensionArray
+AkArray<void (*)(bool),void (*)(bool),ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<void (*)(bool),void (*)(bool),ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+AkListBareNextItem<CAkStateMgr::PreparationStateItem>
+CAkDynamicSequence::AkDynamicSequenceState
+CAkDynamicSequence::AkDynamicSequenceStopMode
+AkContainerMode
+AkArray<CAkRegisteredObj*,CAkRegisteredObj*,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>::Iterator
+MapStruct<AkSwitchKey,unsigned int>
+CAkLayerCntr
+__clock_t
+clock_t
+CAkDynamicSequencePBI
+AkPathSequenceOrRandom
+ConeParams
+WwiseObjectID
+AkLoopValue
+AkSISValue
+AkPropBundle<AkSISValue>
+AkPropBundle<AkSISValue>::Iterator
+AkPropBundle<AkPropValue>
+AkPropBundle<AkPropValue>::Iterator
+AkSyncType
+CAkParameterNodeBase::StateList
+AkListBareLight<AkStateGroupChunk,AkListBareLightNextInNode>
+AkStateValues
+AkPropBundle<AkStateValue>
+AkMapStates
+CAkKeyArray<unsigned int,AkStateLink,2u>
+AkArray<MapStruct<unsigned int,AkStateLink>,const MapStruct<unsigned int,AkStateLink>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+MapStruct<unsigned int,AkStateLink>
+AkStateLink
+CAkSIS
+CAkParameterNodeBase::FXChunk
+CAkParameterNodeBase::FXStruct
+CAkParameterNodeBase::CAkStateSyncArray
+CAkParameterNodeBase::StateSyncArray
+AkArray<AkSyncType,const AkSyncType,ArrayPoolDefault,16ul,AkArrayAllocatorDefault>
+AkObjectInfo
+AkPropBundle<float>
+AkPropBundle<float>::Iterator
+AkStateValue
+AkPropBundle<AkStateValue>::Iterator
+AkArray<MapStruct<unsigned int,AkStateLink>,const MapStruct<unsigned int,AkStateLink>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+AkListBareLightNextInNode
+AkPriorityStruct_INC
+AkPriorityStruct_DEC
+AkNodeCategory
+ActionParams
+ActionParamsExcept
+AkStateGroupUpdate
+AkStateUpdate
+AkEffectUpdate
+AkForAllPBIFunc
+AkArray<AkSyncType,const AkSyncType,ArrayPoolDefault,16ul,AkArrayAllocatorDefault>::Iterator
+AkListBareLight<AkStateGroupChunk,AkListBareLightNextInNode>::Iterator
+AkListBareLight<AkStateGroupChunk,AkListBareLightNextInNode>::IteratorEx
+AkSISValues
+AkActionType
+AkSIMDSpeakerVolumes_4
+AkAudioMix_4
+AkListenerData_2
+CAkBusVolumes:9152_4
+AkMonitor
+SeekActionParams
+SeekActionParams::$CAD50FF8638C7C7901934977A8576DE7
+CAkBusVolumes_4
+AkListBareLight<CAkAction,AkListBareLightNextItem<CAkAction> >
+AkListBareLight<CAkAction,AkListBareLightNextItem<CAkAction> >::Iterator
+AkListBareLight<CAkAction,AkListBareLightNextItem<CAkAction> >::IteratorEx
+CAkSmartPtr<CAkParameterNodeBase>
+AkListBareLightNextItem<CAkAction>
+CAkActionPlayAndContinue
+CAkSound
+CAkActionPlay
+CAkActionStop
+AkTransitionMode
+RandomizerModifier
+RANGED_MODIFIERS<float>
+AkPropBundle<RANGED_MODIFIERS<AkPropValue> >
+AkPropBundle<RANGED_MODIFIERS<AkPropValue> >::Iterator
+RANGED_MODIFIERS<AkPropValue>
+AkPositioningInfo
+AkPathListItemOffset
+MapStruct<CAkRegisteredObj*,CAkSIS*>
+CAkParameterNode::AkMapSIS
+CAkKeyArray<CAkRegisteredObj*,CAkSIS*,4u>
+AkArray<MapStruct<CAkRegisteredObj*,CAkSIS*>,const MapStruct<CAkRegisteredObj*,CAkSIS*>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+CAkGen3DParamsEx
+CAkParameterNode::LayerList
+AkArray<CAkLayer*,CAkLayer*,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+CAkParameterNode::AuxChunk
+CAkContainerBaseInfoPtr
+CAkParentNode<CAkParameterNode>
+AkArray<MapStruct<CAkRegisteredObj*,CAkSIS*>,const MapStruct<CAkRegisteredObj*,CAkSIS*>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+AkArray<CAkLayer*,CAkLayer*,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+CAkLayer::AssociatedChildMap
+CAkKeyArray<unsigned int,CAkLayer::CAssociatedChildData,1u>
+AkArray<MapStruct<unsigned int,CAkLayer::CAssociatedChildData>,const MapStruct<unsigned int,CAkLayer::CAssociatedChildData>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+MapStruct<unsigned int,CAkLayer::CAssociatedChildData>
+CAkLayer::CAssociatedChildData
+AkArray<MapStruct<unsigned int,CAkLayer::CAssociatedChildData>,const MapStruct<unsigned int,CAkLayer::CAssociatedChildData>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+_LayerMuteStruct
+AkSIMDSpeakerVolumes_5
+AkAudioMix_5
+CAkBusVolumes:9152_5
+CAkBusVolumes_5
+AkMediaMap
+CAkFxBase::RTPCSubsArray
+AkArray<CAkFxBase::RTPCSubs,const CAkFxBase::RTPCSubs&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+CAkFxBase::RTPCSubs
+AkArray<CAkFxBase::RTPCSubs,const CAkFxBase::RTPCSubs&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+AkSIMDSpeakerVolumes_6
+AkAudioMix_6
+CAkBusVolumes:9152_6
+CAkBusVolumes_6
+_SetFXParamStruct
+_SetRTPCStruct
+_UnsetRTPCStruct
+AkDecisionTree::Mode
+AkMonitorData::DialogueWeightedDecisionType
+MapStruct<long unsigned int,CAkRegisteredObj*>
+AkArray<long unsigned int,long unsigned int,ArrayPoolDefault,32ul,AkArrayAllocatorDefault>::Iterator
+AkSIMDSpeakerVolumes_7
+AkAudioMix_7
+CAkBusVolumes:9152_7
+CAkBusVolumes_7
+AK::SoundEngine::Query::GameObjDst
+AK::MemoryMgr::PoolMemInfo
+AkSIMDSpeakerVolumes_8
+AkAudioMix_8
+AkListenerData_3
+CAkBusVolumes:9152_8
+CAkURenderer::ContextNotif
+AkCountPolicyWithCount<CAkPBI>
+AkCountPolicyWithCount<CAkPBI>:64
+CAkList2<CAkURenderer::ContextNotif,const CAkURenderer::ContextNotif&,(ListAllocFlag)1u,ArrayPoolDefault>::ListItem
+AkListBare<CAkPBI,AkListBareNextItem<CAkPBI>,AkCountPolicyWithCount>::Iterator
+AkListBare<CAkPBI,AkListBareNextItem<CAkPBI>,AkCountPolicyWithCount>::IteratorEx
+CAkList2<CAkURenderer::ContextNotif,const CAkURenderer::ContextNotif&,(ListAllocFlag)1u,ArrayPoolDefault>::Iterator
+CAkList2<CAkURenderer::ContextNotif,const CAkURenderer::ContextNotif&,(ListAllocFlag)1u,ArrayPoolDefault>::IteratorEx
+AkListBareLight<CAkLimiter,AkListBareLightNextItem<CAkLimiter> >::Iterator
+AkListBareLight<CAkLimiter,AkListBareLightNextItem<CAkLimiter> >::IteratorEx
+AkArray<AK::SoundEngine::Query::GameObjDst,const AK::SoundEngine::Query::GameObjDst&,ArrayPoolDefault,32ul,AkArrayAllocatorDefault>::Iterator
+CAkBusVolumes_8
+AkHashList<long unsigned int,float,31u>
+AkHashList<long unsigned int,float,31u>::Item
+MapStruct<long unsigned int,float>
+AkHashList<long unsigned int,float,31u>::Iterator
+AkHashList<long unsigned int,float,31u>::IteratorEx
+AkListBareNextItem<CAkPBI>
+AkListBareLightNextItem<CAkLimiter>
+CAkURenderer::GetMaxRadius::AkGameObjToMaxDst
+AkSIMDSpeakerVolumes_9
+AkAudioMix_9
+CAkBusVolumes:9152_9
+CAkBusVolumes_9
+CAkList2<AkLECmd,const AkLECmd&,(ListAllocFlag)1u,ArrayPoolLEngineDefault>::ListItem
+CAkList2<AkLECmd,const AkLECmd&,(ListAllocFlag)1u,ArrayPoolLEngineDefault>::Iterator
+CAkList2<AkLECmd,const AkLECmd&,(ListAllocFlag)1u,ArrayPoolLEngineDefault>::IteratorEx
+CAkList2<AkLECmd,const AkLECmd&,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkActiveParent<CAkParameterNodeBase>
+CAkParentNode<CAkParameterNodeBase>
+AkMapChildID
+AkSortedKeyArray<unsigned int,CAkParameterNodeBase*,ArrayPoolDefault,AkChildIDValueGetKey,1ul>
+CAkBus::AkToDuckList
+CAkKeyList<unsigned int,CAkBus::AkDuckInfo,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkList2<MapStruct<unsigned int,CAkBus::AkDuckInfo>,const MapStruct<unsigned int,CAkBus::AkDuckInfo>&,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkList2<MapStruct<unsigned int,CAkBus::AkDuckInfo>,const MapStruct<unsigned int,CAkBus::AkDuckInfo>&,(ListAllocFlag)1u,ArrayPoolDefault>::ListItem
+MapStruct<unsigned int,CAkBus::AkDuckInfo>
+CAkBus::AkDuckInfo
+CAkBus::AkDuckedVolumeList
+CAkKeyList<unsigned int,CAkDuckItem,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkList2<MapStruct<unsigned int,CAkDuckItem>,const MapStruct<unsigned int,CAkDuckItem>&,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkList2<MapStruct<unsigned int,CAkDuckItem>,const MapStruct<unsigned int,CAkDuckItem>&,(ListAllocFlag)1u,ArrayPoolDefault>::ListItem
+MapStruct<unsigned int,CAkDuckItem>
+CAkDuckItem
+AkSIMDSpeakerVolumes_10
+AkAudioMix_10
+CAkBusVolumes:9152_10
+CAkBus::AkDuckingState
+CAkBus::ChildrenIterator
+AkChildIDValueGetKey
+CAkList2<MapStruct<unsigned int,CAkBus::AkDuckInfo>,const MapStruct<unsigned int,CAkBus::AkDuckInfo>&,(ListAllocFlag)1u,ArrayPoolDefault>::Iterator
+CAkList2<MapStruct<unsigned int,CAkBus::AkDuckInfo>,const MapStruct<unsigned int,CAkBus::AkDuckInfo>&,(ListAllocFlag)1u,ArrayPoolDefault>::IteratorEx
+CAkList2<MapStruct<unsigned int,CAkDuckItem>,const MapStruct<unsigned int,CAkDuckItem>&,(ListAllocFlag)1u,ArrayPoolDefault>::Iterator
+CAkList2<MapStruct<unsigned int,CAkDuckItem>,const MapStruct<unsigned int,CAkDuckItem>&,(ListAllocFlag)1u,ArrayPoolDefault>::IteratorEx
+CAkBusVolumes_10
+CAkActionDuck
+__v4sf_9
+CAkActionActive
+CAkActionExcept
+__int128 unsigned
+pthread_attr_t
+sched_param
+$BF4FFC8FA3F69AC17F194B5C1C38DCD3
+AkThreadRoutine
+AkBank::AkSubchunkHeader
+AkBank::AKBKHircType
+AkBank::AKBKSourceType
+AkBank::AKBKHashHeader
+MapStruct<unsigned int,AkMediaEntry>
+MapStruct<unsigned int,char*>
+CAkSwitchCntr
+AkAutoLock<CAkBankList>
+CAkActorMixer
+CAkAuxBus
+AkSIMDSpeakerVolumes_11
+AkListenerData_4
+AkMarkerCallbackInfo
+AkDurationCallbackInfo
+AkDynamicSequenceItemCallbackInfo
+AkMusicPlaylistCallbackInfo
+CAkEffectsMgr::EffectTypeRecord
+CAkEffectsMgr::CodecTypeRecord
+AkArray<MapStruct<unsigned int,CAkEffectsMgr::EffectTypeRecord>,const MapStruct<unsigned int,CAkEffectsMgr::EffectTypeRecord>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+MapStruct<unsigned int,CAkEffectsMgr::EffectTypeRecord>
+AkArray<MapStruct<unsigned int,CAkEffectsMgr::CodecTypeRecord>,const MapStruct<unsigned int,CAkEffectsMgr::CodecTypeRecord>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+MapStruct<unsigned int,CAkEffectsMgr::CodecTypeRecord>
+AkArray<MapStruct<unsigned int,CAkEffectsMgr::EffectTypeRecord>,const MapStruct<unsigned int,CAkEffectsMgr::EffectTypeRecord>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+AkArray<MapStruct<unsigned int,CAkEffectsMgr::CodecTypeRecord>,const MapStruct<unsigned int,CAkEffectsMgr::CodecTypeRecord>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+AkSIMDSpeakerVolumes_12
+AkAudioMix_11
+AkListenerData_5
+CAkBusVolumes:9152_11
+CAkBusVolumes_11
+__time_t
+time_t
+AkSIMDSpeakerVolumes_13
+AkAudioMix_12
+CAkBusVolumes:9152_12
+CAkBusVolumes_12
+__v4sf_10
+AkObjectCategory
+AkVPLSrcCbxRec
+CAkVPLLPFNode
+CAkVPLFilterNodeBase
+CAkResampler
+AkInternalPitchState
+AkInternalPitchState::$C9B1DF743CE9D11F34A9B0FA3E5E9421
+PitchOperatingMode
+CAkSrcLpFilter
+AkInternalLPFState
+DSP::BiquadFilterMulti
+DSP::BiquadFilter<DSP::MultiChannelPolicy>
+DSP::BiquadFilter<DSP::MultiChannelPolicy>::Coefficients
+DSP::MultiChannelPolicy
+AkListVPLSrcsNextItem
+AkCountPolicyWithCount<CAkVPLSrcCbxNode>
+AkCountPolicyWithCount<CAkVPLSrcCbxNode>:64
+AkListBare<CAkVPLSrcCbxNode,AkListVPLSrcsNextItem,AkCountPolicyWithCount>::Iterator
+AkListBare<CAkVPLSrcCbxNode,AkListVPLSrcsNextItem,AkCountPolicyWithCount>::IteratorEx
+CAkLEngine::BufferCache
+AkArray<AkVPL*,AkVPL*,ArrayPoolLEngineDefault,4ul,AkArrayAllocatorDefault>::Iterator
+AkHdrBus
+AkVPL:10912
+CAkSmartPtr<CAkBus>
+CAkEffectContextBase
+__v4sf_11
+AkPanningConversion
+CAkVPLSrcCbxNodeBase:2848
+CAkInsertFXContext
+CAkVPLFilterNode
+CAkVPLFilterNodeOutOfPlace
+AkSIMDSpeakerVolumes_14
+AkAudioMix_13
+CAkBusVolumes:9152_13
+CAkBusVolumes_13
+__v4sf_12
+DSP::BiquadFilter<DSP::MultiChannelPolicy>::FilterType
+__v4sf_13
+AkSIMDSpeakerVolumes_15
+AkAudioMix_14
+CAkBusVolumes:9152_14
+CAkADPCMCodec
+CAkBusVolumes_14
+CAkSrcFileADPCM
+__v4sf_14
+__useconds_t
+AkWAVEFileHeader
+AkCaptureFile
+IAkCaptureWriter
+AkCaptureFile::FormatTag
+AkCaptureMgr
+IAkCaptureWriterFactory
+Uint8
+Sint16
+Uint16
+Uint32
+SDL_AudioFormat
+SDL_AudioCallback
+SDL_AudioSpec
+SDL_AudioSpec_0
+SDL_AudioDeviceID
+AkSIMDSpeakerVolumes_16
+AkAudioMix_15
+CAkBusVolumes:9152_15
+CAkBusVolumes_15
+RANGED_MODIFIERS<int>
+CAkContainerBase
+CAkMultiPlayNode::ContParams
+AkSortedKeyArray<CAkContinuationList*,CAkMultiPlayNode::ContParam,ArrayPoolDefault,CAkMultiPlayNode::ContParamGetKey,1ul>
+AkArray<CAkMultiPlayNode::ContParam,const CAkMultiPlayNode::ContParam&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+CAkMultiPlayNode::ContParam
+CAkActiveParent<CAkParameterNode>
+CAkMultiPlayNode::ContParamGetKey
+SafeContinuationList
+AkContParamsAndPath
+AkArray<CAkMultiPlayNode::ContParam,const CAkMultiPlayNode::ContParam&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkPlayList
+CAkRanSeqCntr::AkMapObjectCntrInfo
+AkSortedKeyArray<CAkRegisteredObj*,CAkRanSeqCntr::CntrInfoEntry,ArrayPoolDefault,AkGetArrayKey<CAkRegisteredObj*,CAkRanSeqCntr::CntrInfoEntry>,1ul>
+AkArray<CAkRanSeqCntr::CntrInfoEntry,const CAkRanSeqCntr::CntrInfoEntry&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+CAkRanSeqCntr::CntrInfoEntry
+RANGED_PARAMETER<float>
+RANGED_PARAMETER<short int>
+RANGED_MODIFIERS<short int>
+AkRandomMode
+AkArray<short unsigned int,short unsigned int,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<short unsigned int,short unsigned int,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+AkArray<CAkRanSeqCntr::CntrInfoEntry,const CAkRanSeqCntr::CntrInfoEntry&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+AkGetArrayKey<CAkRegisteredObj*,CAkRanSeqCntr::CntrInfoEntry>
+CAkSequenceInfo
+CAkRandomInfo
+CAkPlayListRandom
+AkVolumeOffset
+AkSIMDSpeakerVolumes_17
+AkAudioMix_16
+CAkBusVolumes:9152_16
+AkVolumeAttenuations
+CAkBusVolumes_16
+CAkActionPause
+CAkActionSetSwitch
+CAkActionBreak
+CAkActionSetGameParameter
+CAkActionSetAkProp
+CAkActionSetState
+CAkActionUseState
+CAkActionResume
+CAkActionBypassFX
+CAkActionMute
+CAkActionSeek
+CAkActionTrigger
+AkChunkRing
+AkArray<MapStruct<unsigned int,CAkIndexItem<CAkState*>*>,const MapStruct<unsigned int,CAkIndexItem<CAkState*>*>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+MapStruct<unsigned int,CAkIndexItem<CAkState*>*>
+AkArray<MapStruct<unsigned int,CAkIndexItem<CAkState*>*>,const MapStruct<unsigned int,CAkIndexItem<CAkState*>*>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+CAkKeyArray<unsigned int,CAkIndexItem<CAkState*>*,4u>
+CAkIndexSiblingItem
+CAkIndexSiblingItem::AkMapSibling
+SeekActionParamsExcept
+SeekActionParamsExcept::$CAD50FF8638C7C7901934977A8576DE7
+AkWwiseConeAttenuation
+AkWwiseGraphCurve
+AkWwiseRTPCreg
+AkWwiseAttenuation
+AkOnSwitchMode
+AkSwitchNodeParams
+AkArray<unsigned int,unsigned int,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<unsigned int,unsigned int,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkSwitchPackage
+CAkSwitchPackage::AkIDList
+CAkSwitchCntr::AkSwitchList
+CAkKeyList<unsigned int,CAkSwitchPackage,(ListAllocFlag)2u,ArrayPoolDefault>
+CAkList2<MapStruct<unsigned int,CAkSwitchPackage>,const MapStruct<unsigned int,CAkSwitchPackage>&,(ListAllocFlag)2u,ArrayPoolDefault>
+CAkList2<MapStruct<unsigned int,CAkSwitchPackage>,const MapStruct<unsigned int,CAkSwitchPackage>&,(ListAllocFlag)2u,ArrayPoolDefault>::ListItem
+MapStruct<unsigned int,CAkSwitchPackage>
+CAkKeyList<unsigned int,AkSwitchNodeParams,(ListAllocFlag)2u,ArrayPoolDefault>
+CAkList2<MapStruct<unsigned int,AkSwitchNodeParams>,const MapStruct<unsigned int,AkSwitchNodeParams>&,(ListAllocFlag)2u,ArrayPoolDefault>
+CAkList2<MapStruct<unsigned int,AkSwitchNodeParams>,const MapStruct<unsigned int,AkSwitchNodeParams>&,(ListAllocFlag)2u,ArrayPoolDefault>::ListItem
+MapStruct<unsigned int,AkSwitchNodeParams>
+CAkSwitchCntr::AkListSwitchContPlayback
+CAkList2<CAkSwitchCntr::SwitchContPlaybackItem,const CAkSwitchCntr::SwitchContPlaybackItem&,(ListAllocFlag)2u,ArrayPoolDefault>
+CAkList2<CAkSwitchCntr::SwitchContPlaybackItem,const CAkSwitchCntr::SwitchContPlaybackItem&,(ListAllocFlag)2u,ArrayPoolDefault>::ListItem
+CAkSwitchCntr::SwitchContPlaybackItem
+CAkPreparationAware:160
+CAkList2<MapStruct<unsigned int,CAkSwitchPackage>,const MapStruct<unsigned int,CAkSwitchPackage>&,(ListAllocFlag)2u,ArrayPoolDefault>::Iterator
+CAkList2<MapStruct<unsigned int,CAkSwitchPackage>,const MapStruct<unsigned int,CAkSwitchPackage>&,(ListAllocFlag)2u,ArrayPoolDefault>::IteratorEx
+CAkList2<MapStruct<unsigned int,AkSwitchNodeParams>,const MapStruct<unsigned int,AkSwitchNodeParams>&,(ListAllocFlag)2u,ArrayPoolDefault>::Iterator
+CAkList2<MapStruct<unsigned int,AkSwitchNodeParams>,const MapStruct<unsigned int,AkSwitchNodeParams>&,(ListAllocFlag)2u,ArrayPoolDefault>::IteratorEx
+CAkList2<CAkSwitchCntr::SwitchContPlaybackItem,const CAkSwitchCntr::SwitchContPlaybackItem&,(ListAllocFlag)2u,ArrayPoolDefault>::Iterator
+CAkList2<CAkSwitchCntr::SwitchContPlaybackItem,const CAkSwitchCntr::SwitchContPlaybackItem&,(ListAllocFlag)2u,ArrayPoolDefault>::IteratorEx
+FileCaptureWriterFactory
+CAkActionSetValue
+CAkRandomInfo::AkAvoidList
+AkPlaylistItem
+AkArray<AkPlaylistItem,const AkPlaylistItem&,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>
+AkArray<AkPlaylistItem,const AkPlaylistItem&,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>::Iterator
+AkArray<unsigned int,unsigned int,ArrayPoolDefault,16ul,AkArrayAllocatorDefault>
+AkArray<unsigned int,unsigned int,ArrayPoolDefault,16ul,AkArrayAllocatorDefault>::Iterator
+CAkPlayListSequence
+CAkPlayListSequence::AkPlaylistSeq
+CAkPlayListRandom::AkPlayListRdm
+AkSIMDSpeakerVolumes_18
+AkAudioMix_17
+AkDataReference
+MapStruct<unsigned int,AkDataReference>
+AkArray<MapStruct<unsigned int,AkDataReference>,const MapStruct<unsigned int,AkDataReference>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+AkArray<MapStruct<unsigned int,AkDataReference>,const MapStruct<unsigned int,AkDataReference>&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+CAkKeyArray<unsigned int,AkDataReference,2u>
+AkDataReferenceArray
+CAkBusVolumes_17
+CAkBusVolumes_17:9152
+CAkSourceFXContext
+CAkEvent::AkActionList
+CAkLayerCntr::LayerList
+CAkActionActive:584
+InputDataType
+AK::IAkOutOfPlaceEffectPlugin
+AkSIMDSpeakerVolumes_19
+AkAudioMix_18
+__v4sf_15
+__v4si
+__v8hi
+__m128i
+AKSIMD_V4I32
+AkSIMDSpeakerVolumes_20
+AkAudioMix_19
+AkSpeakerDownmixVolumes
+AkSpeakerDownmixVolumesDelta
+FastPowOfBeta::IntOrFloat
+AkSIMDSpeakerVolumes_21
+AkAudioMix_20
+CAkBusVolumes:9152_17
+CAkBusVolumes_18
+CAkSrcPhysModel
+CAkVPLSrcNode:288
+CAkSrcFilePCM
+$88A89BD10667294F74E405D8EAF25A5D
+AkSIMDSpeakerVolumes_22
+AkSIMDSpeakerVolumes::$8B1E1033545DE6ED34AA755470CA7624
+AkAudioMix_21
+CAkBusVolumes:9152_18
+CAkBusVolumes_19
+CAkSrcBankADPCM
+CAkSrcBankPCM
+FileCaptureWriter
+AK::MemoryMgr::PoolStats
+AkLinkedBuffer
+BuffersList
+AkListBare<AkLinkedBuffer,AkListBareNextItem<AkLinkedBuffer>,AkCountPolicyNoCount>
+AkCountPolicyNoCount<AkLinkedBuffer>
+AkListBare<AkLinkedBuffer,AkListBareNextItem<AkLinkedBuffer>,AkCountPolicyNoCount>::Iterator
+AkListBare<AkLinkedBuffer,AkListBareNextItem<AkLinkedBuffer>,AkCountPolicyNoCount>::IteratorEx
+AkMemPool
+tlsf_pool
+AkListBareNextItem<AkLinkedBuffer>
+wchar_t
+AkMemSettings
+ptrdiff_t
+tlsf_walker
+block_header_t
+block_header_t_0
+tlsf_public
+tlsf_private
+pool_t
+pool_t_0
+tlsfptr_t
+integrity_t
+integrity_t_0
+FILE
+AkFileHandle
+AK::StreamMgr::AkDeferredOpenData
+AK::StreamMgr::AkDeferredOpenData::$50C46B31C091D3466D4C9F476C281C9F
+AK::StreamMgr::CAkStreamMgr
+AK::StreamMgr::CAkStreamMgr::ArrayPoolLocal
+AK::StreamMgr::CAkStreamMgr::LangChgObserver
+AK::StreamMgr::AkLanguageChangeHandler
+AK::StreamMgr::CAkStreamMgr::AkDeviceArray
+AkArray<AK::StreamMgr::CAkDeviceBase*,AK::StreamMgr::CAkDeviceBase*,AK::StreamMgr::CAkStreamMgr::ArrayPoolLocal,1ul,AkArrayAllocatorDefault>
+AK::StreamMgr::CAkDeviceBase
+AK::StreamMgr::CAkStreamMgr::ArrayLangChgObservers
+AkArray<AK::StreamMgr::CAkStreamMgr::LangChgObserver,AK::StreamMgr::CAkStreamMgr::LangChgObserver&,AK::StreamMgr::CAkStreamMgr::ArrayPoolLocal,1ul,AkArrayAllocatorDefault>
+AK::StreamMgr::CAkStmTask
+AK::StreamMgr::IAkIOHookDeferred
+AK::StreamMgr::IAkLowLevelIOHook
+AK::StreamMgr::IAkFileLocationResolver
+AK::StreamMgr::CAkDeviceDeferredLinedUpBase
+AK::StreamMgr::CAkIOThread
+AK::StreamMgr::CAkDeviceBase::TaskList
+AkListBareLight<AK::StreamMgr::CAkStmTask,AkListBareLightNextItem<AK::StreamMgr::CAkStmTask> >
+AK::StreamMgr::CAkClientThreadAware
+AkFileDesc
+AK::StreamMgr::CAkIOMemMgr
+AK::StreamMgr::AkStmMemViewListLight
+AkListBareLight<AK::StreamMgr::CAkStmMemView,AK::StreamMgr::AkListBareNextMemView>
+AK::StreamMgr::CAkStmMemView
+AK::StreamMgr::AkMemBlock
+AK::StreamMgr::AkMemBlock::$56F2F6EE4B78C7615595E7D0760A819D
+AK::StreamMgr::CAkLowLevelTransfer
+AK::StreamMgr::CAkStmMemView::TransferStatusType
+AK::StreamMgr::CAkIOMemMgr::AkMemBlockList
+AkListBare<AK::StreamMgr::AkMemBlock,AK::StreamMgr::AkListBareNextMemBlock,AkCountPolicyWithCount>
+AkCountPolicyWithCount<AK::StreamMgr::AkMemBlock>
+AkCountPolicyWithCount<AK::StreamMgr::AkMemBlock>:64
+AK::StreamMgr::AkMemBlocksDictionnary
+AkArray<short unsigned int,short unsigned int,AK::StreamMgr::ArrayPoolLocal,0ul,AkArrayAllocatorDefault>
+AK::StreamMgr::IAkIOHookBlocking
+AkStreamMgrSettings
+AkDeviceSettings
+AkIOTransferInfo
+AkIOCallback
+AkAsyncIOTransferInfo
+AkIoHeuristics
+AkArray<AK::StreamMgr::CAkDeviceBase*,AK::StreamMgr::CAkDeviceBase*,AK::StreamMgr::CAkStreamMgr::ArrayPoolLocal,1ul,AkArrayAllocatorDefault>::Iterator
+AkArray<AK::StreamMgr::CAkStreamMgr::LangChgObserver,AK::StreamMgr::CAkStreamMgr::LangChgObserver&,AK::StreamMgr::CAkStreamMgr::ArrayPoolLocal,1ul,AkArrayAllocatorDefault>::Iterator
+AK::StreamMgr::AkListBareNextMemView
+AK::StreamMgr::CAkLowLevelTransferBlocking
+AK::StreamMgr::CAkAutoStmBlocking
+AK::StreamMgr::CAkAutoStmBase
+AK::StreamMgr::CAkAutoStmBase::AkBufferList
+AkListBare<AK::StreamMgr::CAkStmMemView,AK::StreamMgr::AkListBareNextMemView,AkCountPolicyWithCount>
+AkCountPolicyWithCount<AK::StreamMgr::CAkStmMemView>
+AkCountPolicyWithCount<AK::StreamMgr::CAkStmMemView>:64
+AK::StreamMgr::CAkStdStmBlocking
+AK::StreamMgr::CAkStdStmBase
+AK::StreamMgr::CAkDeviceBlocking
+AkListBareLight<AK::StreamMgr::CAkStmMemView,AK::StreamMgr::AkListBareNextMemView>::Iterator
+AkListBareLight<AK::StreamMgr::CAkStmMemView,AK::StreamMgr::AkListBareNextMemView>::IteratorEx
+AkListBare<AK::StreamMgr::CAkStmMemView,AK::StreamMgr::AkListBareNextMemView,AkCountPolicyWithCount>::Iterator
+AkListBare<AK::StreamMgr::CAkStmMemView,AK::StreamMgr::AkListBareNextMemView,AkCountPolicyWithCount>::IteratorEx
+AkAutoLock<AK::StreamMgr::CAkIOThread>
+AkStmType
+AkListBareLight<AK::StreamMgr::CAkStmTask,AkListBareLightNextItem<AK::StreamMgr::CAkStmTask> >::Iterator
+AkListBareLight<AK::StreamMgr::CAkStmTask,AkListBareLightNextItem<AK::StreamMgr::CAkStmTask> >::IteratorEx
+AkListBareLightNextItem<AK::StreamMgr::CAkStmTask>
+AK::StreamMgr::CAkStmMemViewDeferred
+AK::StreamMgr::AkListBareNextObserver
+AK::StreamMgr::CAkLowLevelTransferDeferred
+AK::StreamMgr::AkStmMemObserversList
+AkListBareLight<AK::StreamMgr::CAkStmMemViewDeferred,AK::StreamMgr::AkListBareNextObserver>
+AK::StreamMgr::CAkDeviceDeferredLinedUp
+AK::StreamMgr::CAkDeviceDeferredLinedUp::AkLowLevelTransfersPool
+AkListBareLight<AK::StreamMgr::CAkLowLevelTransferDeferred,AK::StreamMgr::CAkDeviceDeferredLinedUp::AkListBareNextLowLevelTransfer>
+AK::StreamMgr::CAkDeviceDeferredLinedUp::AkListBareNextLowLevelTransfer
+AK::StreamMgr::CAkAutoStmDeferredLinedUp
+AK::StreamMgr::CAkStmDeferredLinedUpBase<AK::StreamMgr::CAkAutoStmBase>
+AK::StreamMgr::AkStmMemViewList
+AkListBare<AK::StreamMgr::CAkStmMemView,AK::StreamMgr::AkListBareNextMemView,AkCountPolicyNoCount>
+AkCountPolicyNoCount<AK::StreamMgr::CAkStmMemView>
+AK::StreamMgr::CAkStdStmDeferredLinedUp
+AK::StreamMgr::CAkStmDeferredLinedUpBase<AK::StreamMgr::CAkStdStmBase>
+AkListBareLight<AK::StreamMgr::CAkStmMemViewDeferred,AK::StreamMgr::AkListBareNextObserver>::Iterator
+AkListBareLight<AK::StreamMgr::CAkStmMemViewDeferred,AK::StreamMgr::AkListBareNextObserver>::IteratorEx
+AkListBare<AK::StreamMgr::CAkStmMemView,AK::StreamMgr::AkListBareNextMemView,AkCountPolicyNoCount>::Iterator
+AkListBare<AK::StreamMgr::CAkStmMemView,AK::StreamMgr::AkListBareNextMemView,AkCountPolicyNoCount>::IteratorEx
+AkListBareLight<AK::StreamMgr::CAkLowLevelTransferDeferred,AK::StreamMgr::CAkDeviceDeferredLinedUp::AkListBareNextLowLevelTransfer>::Iterator
+AkListBareLight<AK::StreamMgr::CAkLowLevelTransferDeferred,AK::StreamMgr::CAkDeviceDeferredLinedUp::AkListBareNextLowLevelTransfer>::IteratorEx
+AK::StreamMgr::AkListBareNextMemBlock
+AK::StreamMgr::ArrayPoolLocal
+AkArray<short unsigned int,short unsigned int,AK::StreamMgr::ArrayPoolLocal,0ul,AkArrayAllocatorDefault>::Iterator
+AkListBare<AK::StreamMgr::AkMemBlock,AK::StreamMgr::AkListBareNextMemBlock,AkCountPolicyWithCount>::Iterator
+AkListBare<AK::StreamMgr::AkMemBlock,AK::StreamMgr::AkListBareNextMemBlock,AkCountPolicyWithCount>::IteratorEx
+__suseconds_t
+timespec
+timeval
+$FB2272BC94AC42AEC5E9EBA0E6473F05
+AkClipAutomationType
+CAkMusicCtx
+CAkMusicCtx::CtxStatus
+AkMusicSettings
+AkSegmentInfo
+AkSegmentInfoRecord
+MapStruct<unsigned int,AkSegmentInfoRecord>
+AkArray<MapStruct<unsigned int,AkSegmentInfoRecord>,const MapStruct<unsigned int,AkSegmentInfoRecord>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<MapStruct<unsigned int,AkSegmentInfoRecord>,const MapStruct<unsigned int,AkSegmentInfoRecord>&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkKeyArray<unsigned int,AkSegmentInfoRecord,1u>
+CAkSegmentInfoRepository
+CAkMusicRenderer
+CAkMusicRenderer::AkListBareNextTopLevelCtxSibling
+CAkMusicRenderer::AkStateChangeRecord
+CAkMusicRenderer::MatrixAwareCtxList
+AkListBare<CAkMatrixAwareCtx,CAkMusicRenderer::AkListBareNextTopLevelCtxSibling,AkCountPolicyNoCount>
+AkCountPolicyNoCount<CAkMatrixAwareCtx>
+CAkMatrixAwareCtx
+CAkMusicRenderer::PendingStateChanges
+CAkList2<CAkMusicRenderer::AkStateChangeRecord,const CAkMusicRenderer::AkStateChangeRecord&,(ListAllocFlag)1u,ArrayPoolDefault>
+CAkList2<CAkMusicRenderer::AkStateChangeRecord,const CAkMusicRenderer::AkStateChangeRecord&,(ListAllocFlag)1u,ArrayPoolDefault>::ListItem
+CAkMusicRenderer::PendingStateChangeIter
+CAkList2<CAkMusicRenderer::AkStateChangeRecord,const CAkMusicRenderer::AkStateChangeRecord&,(ListAllocFlag)1u,ArrayPoolDefault>::Iterator
+CAkMusicRenderer::PendingStateChangeIterEx
+CAkList2<CAkMusicRenderer::AkStateChangeRecord,const CAkMusicRenderer::AkStateChangeRecord&,(ListAllocFlag)1u,ArrayPoolDefault>::IteratorEx
+AkListBare<CAkMatrixAwareCtx,CAkMusicRenderer::AkListBareNextTopLevelCtxSibling,AkCountPolicyNoCount>::Iterator
+AkListBare<CAkMatrixAwareCtx,CAkMusicRenderer::AkListBareNextTopLevelCtxSibling,AkCountPolicyNoCount>::IteratorEx
+AkTrackSrc
+CAkMusicPBI
+CAkMusicNode
+CAkClipAutomation
+AkMusicAutomation
+AkMusicActionType
+AkListBareLight<AkMusicAutomation,AkListBareLightNextItem<AkMusicAutomation> >
+AkListBareLight<AkMusicAutomation,AkListBareLightNextItem<AkMusicAutomation> >::Iterator
+AkListBareLight<AkMusicAutomation,AkListBareLightNextItem<AkMusicAutomation> >::IteratorEx
+AkMusicAction
+CAkMatrixSequencer
+AkListBareLightNextItem<AkMusicAutomation>
+AkMusicActionStop
+CAkMusicTransAware
+CAkChildCtx
+CAkSegmentCtx
+AkMusicFade
+AkMusicTransRuleBase
+AkMusicTransDestRule
+AkSeekingInfo
+AkSeekingInfo::$C8AE4AB597F7A6AF142712C506909BC5
+AkCutoffInfo
+CAkMusicCtx::ChildrenCtxList
+AkListBareLight<CAkChildCtx,AkListBareLightNextItem<CAkChildCtx> >
+AkSegmentPlayCmd
+AkSegmentStopCmd
+AkAssociatedActionType
+AkAssociatedAction
+AkAssociatedAction::$4245A57DF773F0571AD6B8B635D00977
+AkStingerRecord
+CAkSmartPtr<CAkMatrixAwareCtx>
+AssociatedActionsList
+AkListBareLight<AkAssociatedAction,AkListBareLightNextItem<AkAssociatedAction> >
+AkListBareLight<AkAssociatedAction,AkListBareLightNextItem<AkAssociatedAction> >::Iterator
+AkListBareLight<AkAssociatedAction,AkListBareLightNextItem<AkAssociatedAction> >::IteratorEx
+CAkSmartPtr<CAkSegmentCtx>
+CAkScheduledItem
+AkCountPolicyNoCount<CAkScheduledItem>
+AkListBare<CAkScheduledItem,AkListBareNextItem<CAkScheduledItem>,AkCountPolicyNoCount>
+AkListBare<CAkScheduledItem,AkListBareNextItem<CAkScheduledItem>,AkCountPolicyNoCount>::Iterator
+AkListBare<CAkScheduledItem,AkListBareNextItem<CAkScheduledItem>,AkCountPolicyNoCount>::IteratorEx
+AkScheduledChain
+AkScheduledChain::SelfContainedIter
+CAkChainCtx
+AkSwitchPlayCmd
+AkSwitchStopCmd
+CAkMusicSwitchTransition
+AkListBare<CAkMusicSwitchTransition,AkListBareNextItem<CAkMusicSwitchTransition>,AkCountPolicyNoCount>
+AkCountPolicyNoCount<CAkMusicSwitchTransition>
+AkListBare<CAkMusicSwitchTransition,AkListBareNextItem<CAkMusicSwitchTransition>,AkCountPolicyNoCount>::Iterator
+AkListBare<CAkMusicSwitchTransition,AkListBareNextItem<CAkMusicSwitchTransition>,AkCountPolicyNoCount>::IteratorEx
+AkTransQueueIter
+CAkMusicSwitchMonitor
+CAkScheduleWindow
+CAkScheduleWindow::BranchStack
+CAkMusicSegment
+AkListBareLightNextItem<AkAssociatedAction>
+AkListBareNextItem<CAkScheduledItem>
+AkListBareNextItem<CAkMusicSwitchTransition>
+CAkRSNode
+CAkMusicRanSeqCntr
+CAkMusicSource
+MapStruct<unsigned int,CAkMusicSource*>
+AkArray<MapStruct<unsigned int,CAkMusicSource*>,const MapStruct<unsigned int,CAkMusicSource*>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+AkArray<MapStruct<unsigned int,CAkMusicSource*>,const MapStruct<unsigned int,CAkMusicSource*>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+CAkMusicTrack
+CAkRSSegment
+CAkRSNode:224
+CAkMusicSwitchCntr
+AkEntryType
+AkMusicMarker
+AkMusicMarkerWwise
+AkArray<AkMusicMarker,const AkMusicMarker&,ArrayPoolDefault,0ul,AkArrayAllocatorDefault>
+AkArray<AkMusicMarker,const AkMusicMarker&,ArrayPoolDefault,0ul,AkArrayAllocatorDefault>::Iterator
+CAkMusicSegment::MarkersArray
+CAkMusicNode::CAkStingers
+CAkMusicNode::StingerArray
+AkArray<CAkStinger,const CAkStinger&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+CAkStinger
+CAkSequencableSegmentCtx
+RSType
+AkMusicRanSeqPlaylistItem
+AkArray<CAkRSNode*,CAkRSNode*,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>
+AkArray<CAkRSNode*,CAkRSNode*,ArrayPoolDefault,8ul,AkArrayAllocatorDefault>::Iterator
+CAkRSSub
+CAkMusicTransAware::RulesArray
+AkArray<AkMusicTransitionRule,const AkMusicTransitionRule&,ArrayPoolDefault,0ul,AkArrayAllocatorDefault>
+AkMusicTransitionRule
+AkMusicTransitionRule::TransitionNodeArray
+AkMusicTransSrcRule
+AkMusicTransitionObject
+AkRSList
+CAkSequenceCtx
+AkListBareLight<CAkChildCtx,AkListBareLightNextItem<CAkChildCtx> >::Iterator
+AkListBareLight<CAkChildCtx,AkListBareLightNextItem<CAkChildCtx> >::IteratorEx
+AkListBareLightNextItem<CAkChildCtx>
+AkTrackSrcInfo
+AkMusicTrackRanSeqType
+CAkKeyArray<unsigned int,CAkMusicSource*,4u>
+AkArray<CAkClipAutomation,const CAkClipAutomation&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<CAkClipAutomation,const CAkClipAutomation&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkMusicTrack::SrcInfoArray
+CAkMusicTrack::ClipAutomationArray
+CAkMusicTrack::TrackPlaylist
+AkArray<AkTrackSrc,const AkTrackSrc&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+AkArray<AkTrackSrc,const AkTrackSrc&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkMatrixSequencer::PendingStingersList
+AkListBareLight<AkStingerRecord,AkListBareLightNextItem<AkStingerRecord> >
+CAkMatrixSequencer::AkDelayedStateHandlingResult
+AkListBareLight<AkStingerRecord,AkListBareLightNextItem<AkStingerRecord> >::Iterator
+AkListBareLight<AkStingerRecord,AkListBareLightNextItem<AkStingerRecord> >::IteratorEx
+AkArray<CAkStinger,const CAkStinger&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+AkListBareLightNextItem<AkStingerRecord>
+AkWwiseMusicTransitionRule
+AkArray<AkMusicTransitionRule,const AkMusicTransitionRule&,ArrayPoolDefault,0ul,AkArrayAllocatorDefault>::Iterator
+CAkMusicSwitchCtx
+AkCountPolicyNoCount<AkMusicAction>
+AkListBare<AkMusicAction,AkListBareNextItem<AkMusicAction>,AkCountPolicyNoCount>
+AkListBare<AkMusicAction,AkListBareNextItem<AkMusicAction>,AkCountPolicyNoCount>::Iterator
+AkListBare<AkMusicAction,AkListBareNextItem<AkMusicAction>,AkCountPolicyNoCount>::IteratorEx
+AkArray<CAkMusicTrack*,CAkMusicTrack*,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+AkArray<CAkMusicTrack*,CAkMusicTrack*,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+AkArray<short unsigned int,short unsigned int,ArrayPoolDefault,16ul,AkArrayAllocatorDefault>
+AkArray<short unsigned int,short unsigned int,ArrayPoolDefault,16ul,AkArrayAllocatorDefault>::Iterator
+CAkContextualMusicSequencer
+CAkSegmentCtx::TrackArray
+CAkSegmentCtx::TrackRSArray
+CAkSegmentCtx::AutomationList
+AkMusicActionPlay
+AkMusicActionPlay::AutomationList
+AkListBareNextItem<AkMusicAction>
+RSStackItem
+AkArray<RSStackItem,const RSStackItem&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>
+AkArray<RSStackItem,const RSStackItem&,ArrayPoolDefault,2ul,AkArrayAllocatorDefault>::Iterator
+MapStruct<CAkRSSub*,CAkContainerBaseInfo*>
+AkArray<MapStruct<CAkRSSub*,CAkContainerBaseInfo*>,const MapStruct<CAkRSSub*,CAkContainerBaseInfo*>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>
+AkArray<MapStruct<CAkRSSub*,CAkContainerBaseInfo*>,const MapStruct<CAkRSSub*,CAkContainerBaseInfo*>&,ArrayPoolDefault,4ul,AkArrayAllocatorDefault>::Iterator
+CAkKeyArray<CAkRSSub*,CAkContainerBaseInfo*,4u>
+AkRSIterator
+AkRSIterator::IteratorStack
+AkRSIterator::GlobalRSInfoMap
+AkRSIterator::JumpToList
+AkMeterInfo
+AkTransitionsQueue
+AkArray<CAkMusicSwitchMonitor,const CAkMusicSwitchMonitor&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>
+CAkMusicSwitchCtx::TransitionInfo
+AkArray<CAkMusicSwitchMonitor,const CAkMusicSwitchMonitor&,ArrayPoolDefault,1ul,AkArrayAllocatorDefault>::Iterator
+CAkScheduleWindow::AutoBranchLevel
+CAkNothingCtx
+CAkChainCtx:1184
+__v4sf_16
+SCoefs
+SCoefs_0
+FutzFilterSlope
+FutzFilterSlope_0
+FutzDistortionMode
+FutzDistortionMode_0
+FutzEQType
+FutzEQType_0
+FutzSIMType
+FutzSIMType_0
+FutzBitDepthType
+FutzBitDepthType_0
+FutzFilterParameters
+FutzDistortionParameters
+FutzEQParameters
+FutzNoiseParameters
+FutzSIMParameters
+FutzGateParameters
+FutzLoFiParameters
+McDSPFutzFiltersFXParams
+McDSPFutzDistortionFXParams
+McDSPFutzEQFXParams
+McDSPFutzNoiseFXParams
+McDSPFutzSIMFXParams
+McDSPFutzGateFXParams
+McDSPFutzLoFiFXParams
+McDSPGlobalFXParams
+McDSPFutzBoxFXParams
+PooledMemoryAllocator
+McDSP::CAkWhiteNoise
+FutzBoxState
+DSPMemoryMapHelper
+FutzFiltersMemoryMapHelper
+FutzBoxFiltersMemoryMap
+FutzFiltersImpl
+FutzDistortionDSPMemoryMapHelper
+FutzBoxDistortionMemoryMap
+FutzDistortionImpl
+FutzEQFilterMemoryMapHelper
+FutzBoxEQFilterMemoryMap
+FutzEQFilterImpl
+FutzBoxNoiseGenMemoryMapHelper
+FutzBoxNoiseGenMemoryMap
+FutzNoiseGenImpl
+FutzGateMemoryMapHelper
+FutzBoxGateMemoryMap
+FutzGateImpl
+FutzBoxSIMMemoryMapHelper
+FutzBoxSIMMemoryMap
+FutzSIMImpl
+FutzBoxLoFiMemoryMapHelper
+FutzBoxLoFiMemoryMap
+FutzLoFiImpl
+CMcDSPFutzBoxFX
+CMcDSPFutzBoxFXParams
+DynamicsCalculator
+BiquadCoefficients
+BiquadState
+CoefficientCalculator
+SIMCalculator
+__v4sf_17
+AkFXSrcSilenceParams
+CAkFXSrcSilence
+CAkFxSrcSilenceParams
+AK::AkFXParameterChangeHandler<17u>
+AkStereoDelayParamID
+AkFilterType_0
+AkInputChannelType
+AkStereoDelayChannelParams
+AkStereoDelayFilterParams
+AkStereoDelayFXParams
+CAkStereoDelayFXParams
+AK::DSP::CAkDelayLineMemory<float,1u>
+AK::DSP::CStereoDelayLine
+AkStereoDelayFXInfo
+CAkStereoDelayFX
+__v4sf_18
+__v4sf_19
+__v4sf_20
+CrankcaseAudio::EngineSimulationControlData
+CrankcaseAudio::ADPCM::EncodingStructure
+CrankcaseAudio::ADPCM::ADPCMDecoder
+CrankcaseAudio::PtrWrapper<unsigned char>
+CrankcaseAudio::PtrWrapper<unsigned char>::$FC543CDE094C3275F64FD6904474E406
+CrankcaseAudio::SampleFile
+CrankcaseAudio::GranularModelControlData
+CrankcaseAudio::eRampType
+CrankcaseAudio::GrainHeader
+CrankcaseAudio::PtrWrapper<CrankcaseAudio::GrainHeader>
+CrankcaseAudio::PtrWrapper<CrankcaseAudio::GrainHeader>::$E9B7492B08A22EF7C6C51B375E0FB7EE
+CrankcaseAudio::PtrWrapper<CrankcaseAudio::SampleFile>
+CrankcaseAudio::PtrWrapper<CrankcaseAudio::SampleFile>::$33FA3F563894647C19E13D5D4C63F818
+CrankcaseAudio::GrainFileHeader
+CrankcaseAudio::CFilterButterworth24db
+CrankcaseAudio::CFilterButterworth24db::FilterHistory
+CrankcaseAudio::CFilterMultiChannel
+CrankcaseAudio::GranularModelUpdateParams
+CrankcaseAudio::WalkState
+CrankcaseAudio::PatternGenerator
+CrankcaseAudio::PatternGenerator::Pattern
+CrankcaseAudio::GrainReadState
+CrankcaseAudio::GrainReadAction
+CrankcaseAudio::GrainState
+CrankcaseAudio::GrainPlayerState
+CrankcaseAudio::AccelDecelModelControlData
+CrankcaseAudio::ReadAction
+CrankcaseAudio::SamplePlayer
+CrankcaseAudio::SamplePlayerUpdateParameters
+CrankcaseAudio::eSamplePlayerState
+CrankcaseAudio::DATA_TYPE
+CrankcaseAudio::AccelDecelModelUpdateParams
+CrankcaseAudio::GranularModelUpdateParams:136
+CrankcaseAudio::LocalAccelDecelData
+CrankcaseAudio::AccelDecelModelFileHeader
+CrankcaseAudio::VehiclePhysicsControlData
+CrankcaseAudio::PtrWrapper<CrankcaseAudio::GrainFileHeader>
+CrankcaseAudio::PtrWrapper<CrankcaseAudio::GrainFileHeader>::$396860FD4FE1F5CE7DD001DC9A11EC8D
+CrankcaseAudio::PtrWrapper<CrankcaseAudio::SampleBank>
+CrankcaseAudio::PtrWrapper<CrankcaseAudio::SampleBank>::$1226F816D724309021EFECD45EF54944
+CrankcaseAudio::SampleBank
+CrankcaseAudio::AccelDecelModel
+Queue<CrankcaseAudio::GrainReadAction,46>
+Queue<CrankcaseAudio::ReadAction,5>
+CrankcaseAudio::AccelDecelModel::MixRatios
+CrankcaseAudio::AccelDecelModel::SampleMixRatios
+CrankcaseAudio::AccelDecelModel::PopsStatus
+CrankcaseAudio::AccelDecelModel::eGrainPlayers
+CrankcaseAudio::eCurveType
+CrankcaseAudio::Interpolation
+CrankcaseAudio::Oscillation
+CrankcaseAudio::SimulationOutputData
+CrankcaseAudio::EngineSimulationUpdateParams
+CrankcaseAudio::IState
+CrankcaseAudio::AccelDecelModelSimulation
+CrankcaseAudio::AccelDecelModelSimulation::States
+CrankcaseAudio::DrivingState
+CrankcaseAudio::ShiftingState
+CrankcaseAudio::ShiftingState::eShiftingState
+CrankcaseAudio::FirstGearClutch
+CrankcaseAudio::FirstGearClutch::ClutchState
+CrankcaseAudio::eSimulationState
+CrankcaseAudio::WWise::REVModelPlayerFXState
+CrankcaseAudio::WWise::CREVSrcModelPlayer
+CrankcaseAudio::WWise::CREVFxSrcModelPlayerParams
+CrankcaseAudio::WWise::RevModelPlayerParams
+CrankcaseAudio::WWise::REVModelPlayerParams
+std::size_t
+CrankcaseAudio::Channels
+CrankcaseAudio::Curve
+CrankcaseAudio::MinMax
+CrankcaseAudio::SlopeData
+CrankcaseAudio::Clamp
+CrankcaseAudio::Slope
+CrankcaseAudio::PhysicsOutputParameters
+CrankcaseAudio::GranularModel
+Queue<CrankcaseAudio::GrainReadAction,24>
+AK::AkFXParameterChangeHandler<20u>
+AK::DSP::MultiChannelBiquadFilter<8u>
+AK::DSP::MultiChannelBiquadFilter<8u>::Coefficients
+AK::DSP::MultiChannelBiquadFilter<8u>::Memories
+AK::DSP::MultiChannelBiquadFilter<8u>::FilterType
+AkHarmonizerID
+AkInputType
+AkVoiceFilterParams
+AkPitchVoiceParams
+AkHarmonizerFXParams
+ak_fft_cpx
+ak_fft_cfg
+ak_fft_state
+ak_fftr_state
+DSP::CAkCircularBuffer
+DSP::CAkOLACircularBuffer
+DSP::CAkTimeWindow
+DSP::CAkTimeWindow::WindowType
+DSP::AkPolar
+DSP::AkFFTAllButterflies::CAkFreqWindow
+DSP::AkFFTAllButterflies::CAkPhaseVocoder
+DSP::PhaseProcessingType
+DSP::AkFFTAllButterflies::CAkResamplingPhaseVocoder
+DSP::CAkResamplingCircularBuffer
+DSP::CDelayLight
+AkHarmonizerFXInfo
+CAkHarmonizerFX
+CAkHarmonizerFXParams
+__v4sf_21
+ak_fftr_cfg
+__v4sf_22
+AKSIMD_V4COND
+__v4sf_23
+__v4sf_24
+__v4sf_25
+__v4sf_26
+AkDelayLengthsMode
+CAkFDNReverbFX
+CAkFDNReverbFXParams
+AkFDNReverbRTPCParams
+AkFDNReverbNonRTPCParams
+AkFDNReverbFXParams
+AkFDNReverbFXParams:832
+__m64
+__m128d
+__m256
+__m256d
+__m256i
+stat
+__dev_t
+__ino_t
+__nlink_t
+__mode_t
+__uid_t
+__gid_t
+__blksize_t
+__blkcnt_t
+__syscall_slong_t
+tm
+sockaddr
+sa_family_t
+fd_set
+$B4ED38EDC55356A7E931AC6DC9C0CA0A
+__fd_mask
+sigset_t
+__sigset_t
+$17E8534BCB72EE42B6B6995F8B90F203
+cpu_set_t
+$18A7FF309BE85B010DF59BF700116658
+__cpu_mask
+fenv_t
+$B91A488201B9E841F1A5B4B4EA09BBDD
+sigaction
+sigaction::$CF138106520E5A28DAF2A67779B92EE8
+__sighandler_t
+siginfo_t
+$FF42BAC5ED235A895D76875BB02F1547
+$FF42BAC5ED235A895D76875BB02F1547::$41B0E947727B04B281BBEA4B1896A8BE
+$::$41B0E947727B04B281BBEA4B1896A8BE::$DDF278A5B88F81FEC3CBEE828E282CB3
+__pid_t
+$::$41B0E947727B04B281BBEA4B1896A8BE::$F43D85AC31CEBD8CC07B08111ABDF065
+sigval_t
+sigval
+$::$41B0E947727B04B281BBEA4B1896A8BE::$002955E8B5DE3B92E30DFEF7AB65BFE2
+$::$41B0E947727B04B281BBEA4B1896A8BE::$8A1A9DC09BDADE4F3456EDCC5E429445
+__sigchld_clock_t
+$::$41B0E947727B04B281BBEA4B1896A8BE::$394784BEE55B7018BCA7354475FB2ABC
+$::$41B0E947727B04B281BBEA4B1896A8BE::$A0026EAD564A6656D0C8BDAAC752A4B0
+$::$41B0E947727B04B281BBEA4B1896A8BE::$4B29161E04CAD4BCDD788B201A5E8E5E
+mbstate_t
+__mbstate_t
+$E9F5FE92D7DB981290475B0A784F5155
+$E9F5FE92D7DB981290475B0A784F5155::$BADCA52C29225A708D9C0115E5B974AC
+__locale_struct
+__va_list_tag
+__gnuc_va_list
+TextureCache::TextureResource
+struct_scene_model
