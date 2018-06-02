@@ -1,0 +1,4 @@
+struct dsl_ScriptData_LuaValue
+{
+  unsigned int lua_reference;
+};

@@ -1,0 +1,6 @@
+struct __attribute__((aligned(8))) dsl::TwoLayerTransport
+{
+  dsl::Transport super;
+  dsl::PackageBundle *package_bundle;
+  dsl::Bundle bundle;
+};

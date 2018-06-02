@@ -1,0 +1,9 @@
+struct __attribute__((aligned(8))) dsl::PackageBundle
+{
+  vtable_t_PackageBundle *vtable;
+  dsl::Allocator *allocator;
+  dsl_Vector *file_ids_vector;
+  dsl::Archive data_archive;
+  dsl::Archive header_archive;
+  int file_ids_array_offset;
+};

@@ -1,0 +1,5 @@
+struct dsl::ResourceID
+{
+  id_raw type;
+  id_raw name;
+};

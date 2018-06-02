@@ -1,0 +1,4 @@
+struct dsl::LuaRemoteDebuggerImpl
+{
+  char null1[352];
+};

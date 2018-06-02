@@ -1,0 +1,11 @@
+struct __attribute__((aligned(8))) dsl::Archive
+{
+  std_string str;
+  size_t position_in_bundle;
+  size_t size;
+  size_t read_counter;
+  char null1[16];
+  std_recursive_mutex lock;
+  dsl::DataStore *datastore;
+  uint64_t datastore_safe_counter_id;
+};

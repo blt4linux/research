@@ -1,0 +1,10 @@
+struct dsl::ScriptData
+{
+  char null1[32];
+  char vector1[24];
+  char null2[48];
+  char null3[24];
+  char vector2[24];
+  dsl_ScriptData_LuaValue value;
+  char null9[999999];
+};

@@ -1,0 +1,10 @@
+struct all_headers_bundle_frame
+{
+  int id;
+  char null1[12];
+  int inner_frame_count;
+  int i2;
+  all_headers_bundle_frame___inner_frame *some_ptr;
+  dsl::Allocator *allocator;
+  __int64 padding_maybe;
+};

@@ -1,0 +1,8 @@
+struct __attribute__((aligned(8))) dsl::LuaRef
+{
+  int refid;
+  int _padding1;
+  lua_State L;
+  int int_value_from_stack;
+  int _padding2;
+};

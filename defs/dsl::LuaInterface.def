@@ -1,0 +1,5 @@
+struct dsl::LuaInterface
+{
+  void *L;
+  char null9[999999];
+};

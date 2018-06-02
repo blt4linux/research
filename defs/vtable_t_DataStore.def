@@ -1,0 +1,12 @@
+struct __attribute__((aligned(8))) vtable_t_DataStore
+{
+  void *destructor1;
+  void (__cdecl *destructor2)();
+  void *write;
+  size_t (__cdecl *read)(dsl::DataStore *, uint64_t, void *, size_t);
+  void (__cdecl *close)();
+  unsigned int (__cdecl *size)(dsl::DataStore *);
+  bool (__cdecl *is_asynchronous)(dsl::DataStore *);
+  void *set_asynchronous_completion_callback;
+  void *null9[100];
+};

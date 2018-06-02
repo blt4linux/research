@@ -1,0 +1,4 @@
+struct dsl::Transport
+{
+  vtable_t_Transport *vtable;
+};

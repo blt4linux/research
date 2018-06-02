@@ -1,0 +1,4 @@
+struct std::__1::recursive_mutex
+{
+  char padding[40];
+};

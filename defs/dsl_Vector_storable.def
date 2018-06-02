@@ -1,0 +1,7 @@
+struct dsl_Vector_storable
+{
+  unsigned int size;
+  unsigned int capacity;
+  void *contents_ptr;
+  dsl::Allocator *allocator;
+};

@@ -1,0 +1,6 @@
+struct __attribute__((aligned(8))) std_vector
+{
+  void **begin;
+  void *end;
+  void *block_end;
+};

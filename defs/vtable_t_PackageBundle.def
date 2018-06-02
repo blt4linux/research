@@ -1,0 +1,7 @@
+struct vtable_t_PackageBundle
+{
+  void *dtor1;
+  void *dtor2;
+  void (__cdecl *open)(dsl::PackageBundle *, unsigned int);
+  void *null9[9999];
+};

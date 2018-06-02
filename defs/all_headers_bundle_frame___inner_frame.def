@@ -1,0 +1,5 @@
+struct all_headers_bundle_frame___inner_frame
+{
+  int param1;
+  size_t param2;
+};

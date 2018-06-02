@@ -1,0 +1,6 @@
+struct all_headers_bundle_frame___something
+{
+  __int64 padding1;
+  dsl_Vector myvec;
+  char null9[9999];
+};

@@ -1,0 +1,7 @@
+struct vtable_t_Transport
+{
+  void *dtor1;
+  void *dtor2;
+  int (__cdecl *open)(dsl::Transport *, unsigned int);
+  void *null9[999];
+};

@@ -1,0 +1,7 @@
+struct __attribute__((aligned(8))) vtable_t_Allocator
+{
+  void *destructor1;
+  void *destructor2;
+  void *(__fastcall *allocate)(dsl::Allocator *, const unsigned __int64 *);
+  void *ptrs[99];
+};

@@ -1,0 +1,5 @@
+struct __attribute__((aligned(8))) dsl::LuaInterpreter
+{
+  lua_State L;
+  char padding[96];
+};

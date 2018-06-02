@@ -1,0 +1,9 @@
+struct __attribute__((aligned(2))) dsl::Bundle
+{
+  void *vtable;
+  dsl::Allocator *allocator;
+  std_vector probably_languages_vec;
+  dsl_Vector contents_archives;
+  __int64 ptrs2[999];
+  char null9[999999];
+};

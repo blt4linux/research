@@ -1,0 +1,5 @@
+struct dsl::DataStore
+{
+  vtable_t_DataStore *vtable;
+  char null1[9999];
+};

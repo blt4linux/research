@@ -1,0 +1,5 @@
+struct bundle_db_data__sortmap
+{
+  uint64_t unknown;
+  dsl_Vector vec;
+};

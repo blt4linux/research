@@ -1,0 +1,5 @@
+struct dsl::LuaDebugger
+{
+  bool some_bool;
+  char null1[7];
+};

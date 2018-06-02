@@ -1,0 +1,8 @@
+struct __attribute__((aligned(2))) Application
+{
+  char null1[240];
+  dsl::LuaTable *global_table;
+  char null2[448];
+  dsl::LuaInterpreter *lua_interpreter;
+  char null9[999999];
+};

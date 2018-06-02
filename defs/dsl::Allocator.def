@@ -1,0 +1,5 @@
+struct dsl::Allocator
+{
+  vtable_t_Allocator *vtable;
+  char padding[16];
+};

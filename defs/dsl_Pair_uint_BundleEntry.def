@@ -1,0 +1,5 @@
+struct dsl_Pair_uint_BundleEntry
+{
+  unsigned int first;
+  dsl::Bundle::Entry second;
+};

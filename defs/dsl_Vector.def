@@ -1,0 +1,6 @@
+struct dsl_Vector
+{
+  unsigned int size;
+  unsigned int capacity;
+  void *contents_ptr;
+};

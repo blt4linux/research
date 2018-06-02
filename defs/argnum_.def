@@ -1,0 +1,4 @@
+struct argnum_
+{
+  int field_0;
+};

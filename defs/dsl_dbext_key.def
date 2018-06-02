@@ -1,0 +1,8 @@
+struct dsl_dbext_key
+{
+  dsl::ResourceID resource;
+  int language_id;
+  int val2;
+  int id;
+  int val3;
+};

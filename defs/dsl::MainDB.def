@@ -1,0 +1,8 @@
+struct dsl::MainDB
+{
+  dsl::DB super;
+  void *vtable_scriptref;
+  void *twolayertransport_obj_vtable;
+  dsl::PackageBundle *package_bundle;
+  uint64_t padding[4];
+};

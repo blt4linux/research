@@ -1,0 +1,8 @@
+struct __attribute__((aligned(2))) dsl::FileDataStore
+{
+  vtable_t_DataStore *vtable;
+  int file_handle;
+  void *something_else;
+  char null1[16];
+  std_recursive_mutex mutex;
+};

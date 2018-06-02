@@ -1,0 +1,15 @@
+struct __attribute__((aligned(2))) PackageManager
+{
+  void *vtable;
+  char null1[64];
+  void *vtable_iscriptref;
+  void *vtale_dieselpackagemanager;
+  std_vector package_list;
+  char null2[16];
+  void *allocator;
+  char null3[8];
+  bool streaming_enabled;
+  char null4[7];
+  std_vector todo_load_packages;
+  char null9[23];
+};

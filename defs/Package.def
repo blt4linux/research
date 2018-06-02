@@ -1,0 +1,18 @@
+struct __attribute__((aligned(8))) Package
+{
+  void *vtable;
+  char null1[64];
+  void *vtable_scriptref;
+  char allocator[152];
+  char *name;
+  char null2[8];
+  dsl::PackageBundle *current_package_bundle;
+  void *something;
+  char null4[16];
+  __int64 some_thready_thing;
+  void *dsl_luaref_onloadedcallback;
+  char null5[56];
+  char unordered_map[16];
+  void **resource_hash_list;
+  char padding[112];
+};

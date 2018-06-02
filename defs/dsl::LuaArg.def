@@ -1,0 +1,5 @@
+struct dsl::LuaArg
+{
+  dsl::LuaInterface **L;
+  int ref_id;
+};

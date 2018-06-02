@@ -1,0 +1,5 @@
+struct std_string
+{
+  char flags;
+  char data[23];
+};

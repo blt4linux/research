@@ -1,0 +1,13 @@
+struct __attribute__((aligned(8))) dsl::DB
+{
+  vtable_t_MainDB *vtable;
+  dsl::Allocator allocator;
+  std_string bundles_directory;
+  std_string some_string;
+  bundle_db_data *bundle_db;
+  uint64_t maybe_cache_thing;
+  dsl::FileSystemStack fss;
+  void *vtable_dtor;
+  void *vtable_weakptr;
+  char null4[64];
+};

@@ -1,0 +1,7 @@
+struct vtable_t_MainDB
+{
+  void *dtor1;
+  void *dtor2;
+  void (__cdecl *_get_mod_override)(void *, int);
+  void *null9[99];
+};

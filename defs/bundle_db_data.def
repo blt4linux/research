@@ -1,0 +1,10 @@
+struct bundle_db_data
+{
+  void *ptr1;
+  dsl_Vector_storable probably_languages;
+  char null1[8];
+  bundle_db_data__sortmap files;
+  char null2[16];
+  int space_for_max_id;
+  char null9[99999];
+};
