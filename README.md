@@ -8,9 +8,6 @@ exported from IDA Pro. It also contains scripts to import and export the definit
 Run `import.py` in this directory. **You should only run this on new databases!** If it fails mid
 import, your type definitions may be toast.
 
-Note you may have to do this with your IDB located inside the repository folder - I'm not quite sure
-how relative paths work with IDAPython.
-
 ## Exporting types
 
 If you've made modifications you wish to contribute, run `export.py`. This will copy all non-excluded

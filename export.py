@@ -1,13 +1,18 @@
 import re
 import os
 
-defs_path = "defs"
-
 print("Starting!")
+
+base = os.path.dirname(os.path.abspath(__file__))
+fprefix = base + "/"
+
+print("Using file prefix " + fprefix)
+
+defs_path = fprefix + "defs"
 
 def read_listfile(filename):
 	res = []
-	with open(filename, 'rU') as fileptr:
+	with open(fprefix + filename, 'rU') as fileptr:
 		for line in fileptr:
 			line = line.strip()
 			if line:
@@ -19,8 +24,8 @@ ignores = read_listfile('ida_ignores.txt')
 empty_struct_pattern = re.compile(r"^struct [a-zA-Z0-9_:]+;$")
 
 # Use binary mode to ensure we always use UNIX newlines
-definedfile = open('definedfile.txt', 'wb')
-empty_defs_file = open('empty_defs_file.txt', 'wb')
+definedfile = open(fprefix + 'definedfile.txt', 'wb')
+empty_defs_file = open(fprefix + 'empty_defs_file.txt', 'wb')
 
 for i in xrange(1, GetMaxLocalType()):
 	name = GetLocalTypeName(i)
