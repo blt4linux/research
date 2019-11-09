@@ -1,0 +1,14 @@
+struct __attribute__((aligned(8))) gui::Object
+{
+  gui::Object_vtable *vtable;
+  void *vtable_dtors;
+  char null1[112];
+  gui::Object *parent;
+  float world_x;
+  float world_y;
+  float w;
+  float h;
+  __int64 world_layer;
+  char null3[48];
+  dsl::LuaTable table;
+};

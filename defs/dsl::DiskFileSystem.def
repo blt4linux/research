@@ -1,0 +1,5 @@
+struct dsl::DiskFileSystem
+{
+  DiskFileSystem_vtable *vtable;
+  char null9[99999];
+};

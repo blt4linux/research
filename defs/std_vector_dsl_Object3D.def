@@ -1,0 +1,6 @@
+struct std_vector_dsl_Object3D
+{
+  dsl::Object3D **begin;
+  dsl::Object3D *end;
+  dsl::Object3D *block_end;
+};

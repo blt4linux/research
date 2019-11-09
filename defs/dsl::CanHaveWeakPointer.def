@@ -1,0 +1,5 @@
+struct dsl::CanHaveWeakPointer
+{
+  dsl::CanHaveWeakPointer_vtable *vtable;
+  char padding[32];
+};

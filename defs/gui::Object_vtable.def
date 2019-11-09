@@ -1,0 +1,19 @@
+struct gui::Object_vtable
+{
+  __int64 (__fastcall *dtor1)();
+  __int64 (__fastcall *dtor2)();
+  __int64 (__fastcall *was_released)();
+  __int64 (__fastcall *is_member_of)(unsigned int);
+  __int64 (__fastcall *is_type)(unsigned int);
+  __int64 (__fastcall *type_id)();
+  __int64 (__fastcall *push_var)(lua_State *);
+  __int64 (__fastcall *crop)(float *, float *, float *, float *);
+  __int64 (__fastcall *configure)(dsl::LuaTable, bool);
+  __int64 (__fastcall *set_world_shape)(float, float, float, float);
+  __int64 (__fastcall *set_world_layer)(int);
+  __int64 (__fastcall *render)(dsl::RenderDevice *);
+  __int64 (__fastcall *tree_visible_changed)();
+  __int64 (__fastcall *invalidate_world_tm)();
+  __int64 (__fastcall *set_parent_alpha)(float);
+  __int64 (__fastcall *set_alpha)(float);
+};

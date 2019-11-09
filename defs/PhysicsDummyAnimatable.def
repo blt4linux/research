@@ -1,0 +1,4 @@
+struct PhysicsDummyAnimatable
+{
+  char padding[64];
+};

@@ -1,0 +1,5 @@
+struct __attribute__((aligned(8))) dsl::BoneMapping
+{
+  std_vector vec1;
+  std_vector vector_vector_matrix_ptrs;
+};

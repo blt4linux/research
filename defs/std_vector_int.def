@@ -1,0 +1,6 @@
+struct std_vector_int
+{
+  int **begin;
+  int *end;
+  int *block_end;
+};

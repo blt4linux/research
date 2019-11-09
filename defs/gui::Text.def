@@ -1,0 +1,5 @@
+struct gui::Text
+{
+  gui::Object super;
+  char null9[9999];
+};

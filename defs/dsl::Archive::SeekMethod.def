@@ -1,0 +1,6 @@
+enum dsl::Archive::SeekMethod : __int64
+{
+  SEEK_TO = 0,
+  SEEK_MOVE_BY = 1,
+  SEEK_TO_REVERSE = 2,
+};

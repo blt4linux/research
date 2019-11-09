@@ -1,0 +1,7 @@
+enum dsl_FileRequestManager_Status : __int32
+{
+  dsl_FileRequestManager_Run = 0,
+  dsl_FileRequestManager_Pause = 1,
+  dsl_FileRequestManager_Stop = 2,
+  dsl_FileRequestManager_Done = 3,
+};

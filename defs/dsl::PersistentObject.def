@@ -1,0 +1,5 @@
+struct dsl::PersistentObject
+{
+  dsl_PersistentObject_vtable *vtable;
+  char null9[999999];
+};

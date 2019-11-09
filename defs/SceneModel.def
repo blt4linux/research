@@ -1,0 +1,23 @@
+struct __attribute__((aligned(8))) SceneModel
+{
+  void *vtable;
+  void *vtable2;
+  char null1[52];
+  SceneModelLoader::DynamicObjectData *dod;
+  SceneModelLoader *loader;
+  char null2[24];
+  std_vector bodies_vec;
+  char null3[104];
+  std_vector renderables_vec;
+  std_vector vec0;
+  std_vector animatables_1;
+  std_vector animatables_2;
+  char null5[200];
+  void *ptr1_to_obj1;
+  char obj1[72];
+  char obj2[16];
+  void *obj2_tree;
+  std_tree tree;
+  id_raw id;
+  char padding[8];
+};

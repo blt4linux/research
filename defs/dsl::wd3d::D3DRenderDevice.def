@@ -1,0 +1,4 @@
+struct dsl::wd3d::D3DRenderDevice
+{
+  char padding[1384];
+};

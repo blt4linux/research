@@ -1,0 +1,5 @@
+struct __attribute__((aligned(2))) dsl::ObjectDatabase
+{
+  dsl::PersistentObject *persistent_object;
+  char null9[999999];
+};

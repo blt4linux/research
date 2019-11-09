@@ -1,0 +1,7 @@
+struct D3DRenderDeviceParameters_vtable
+{
+  int (__fastcall *resolution)(dsl::wd3d::D3DRenderDeviceParameters *);
+  int (__fastcall *windowed)(dsl::wd3d::D3DRenderDeviceParameters *);
+  int (__fastcall *refresh_rate)(dsl::wd3d::D3DRenderDeviceParameters *);
+  void *dtor;
+};

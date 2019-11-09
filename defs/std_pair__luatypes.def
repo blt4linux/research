@@ -1,0 +1,5 @@
+struct std_pair__luatypes
+{
+  uint32_t first;
+  void *second;
+};

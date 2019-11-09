@@ -1,5 +1,6 @@
-struct std_string
+struct __attribute__((aligned(8))) std_string
 {
-  char flags;
-  char data[23];
+  uint64_t flags_and_capacity;
+  void *size;
+  void *long_c_ptr;
 };

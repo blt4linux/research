@@ -1,0 +1,16 @@
+struct __attribute__((aligned(16))) dsl::Object3D
+{
+  void *vtable;
+  void *vtable_dtor;
+  id_raw hashed_name;
+  char dsl_paramblock[112];
+  char script_reference[24];
+  dsl::Matrix4 deserialized_mat;
+  dsl::Matrix4 mat;
+  char null2[16];
+  dsl::Object3D *refpatch_parent;
+  std_vector children;
+  int i1;
+  int probably_version;
+  char null9[99999];
+};

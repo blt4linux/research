@@ -1,0 +1,9 @@
+struct __attribute__((aligned(4))) dsl::FileRequestManager
+{
+  char padding[72];
+  std::__1::recursive_mutex mutex;
+  dsl_FileRequestManager_Status status;
+  _DWORD sleep_time;
+  _DWORD dword3;
+  char padding2[4];
+};

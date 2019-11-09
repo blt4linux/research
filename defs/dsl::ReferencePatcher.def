@@ -1,0 +1,5 @@
+struct __attribute__((aligned(8))) dsl::ReferencePatcher
+{
+  void *vtable_dtor_only;
+  void **target_pointer;
+};

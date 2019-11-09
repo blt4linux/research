@@ -1,0 +1,20 @@
+struct DiskFileSystem_vtable
+{
+  void *(__fastcall *dtor1)();
+  void *(__fastcall *dtor2)();
+  void *(__fastcall *exists)(dsl::DiskFileSystem *this, const std_string *);
+  void *(__fastcall *exists_ex)(dsl::DiskFileSystem *this, const std_string *);
+  void *(__fastcall *is_dir)(dsl::DiskFileSystem *this, const std_string *);
+  void *(__fastcall *system_path)(dsl::DiskFileSystem *this, const std_string *);
+  void *(__fastcall *system_path_2)(dsl::DiskFileSystem *this, const std_string *, __int64 *, int *);
+  void *(__fastcall *full_path)(dsl::DiskFileSystem *this, const std_string *);
+  void *(__fastcall *open)(dsl::DiskFileSystem *this, const std_string *, const std_string *, const std_string *, int);
+  void *(__fastcall *make_dir)(dsl::DiskFileSystem *this, const std_string *);
+  void *(__fastcall *delete_file)(dsl::DiskFileSystem *this, const std_string *);
+  void *(__fastcall *list)(dsl::DiskFileSystem *this, std_vector *, const std_string *, bool);
+  void *(__fastcall *readonly)(dsl::DiskFileSystem *this);
+  void *(__fastcall *readonly_2)(dsl::DiskFileSystem *this, const std_string *);
+  void *(__fastcall *update_index)(dsl::DiskFileSystem *this, const std_string *);
+  void *(__fastcall *last_modified)(dsl::DiskFileSystem *this, const std_string *);
+  void *(__fastcall *rename_file)(dsl::DiskFileSystem *this, const std_string *, const std_string *);
+};

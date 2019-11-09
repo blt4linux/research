@@ -1,0 +1,4 @@
+struct dsl::EmptyRenderDevice
+{
+  char padding[40];
+};

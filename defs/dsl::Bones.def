@@ -1,0 +1,20 @@
+struct __attribute__((aligned(8))) dsl::Bones
+{
+  SkinBones_vtable *vtable;
+  void *vtable2;
+  __int64 q1;
+  int i1;
+  int i2;
+  dsl::BoneMapping bonemapping;
+  dsl::Matrix4 matrix;
+  dsl::Object3D *object3d;
+  std_vector_dsl_Object3D objects_vector;
+  void *ptr1;
+  std_vector_int versions_vector;
+  std_vector_dsl_Matrix4 bone_premul_mvec;
+  std_vector_dsl_Matrix4 matrix_vector;
+  void *ptr4;
+  int myint;
+  bool something;
+  char null9[9999];
+};

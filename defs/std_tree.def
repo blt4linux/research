@@ -1,0 +1,4 @@
+struct std_tree
+{
+  char some_data[24];
+};

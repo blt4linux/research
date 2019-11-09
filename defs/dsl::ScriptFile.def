@@ -1,0 +1,6 @@
+struct __attribute__((aligned(8))) dsl::ScriptFile
+{
+  void *vtable;
+  char padding[72];
+  dsl::Archive archive;
+};

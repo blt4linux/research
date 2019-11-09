@@ -1,0 +1,8 @@
+struct dsl::wd3d::D3DRenderDeviceParameters
+{
+  D3DRenderDeviceParameters_vtable *vtable;
+  char null1[4];
+  char rect[68];
+  bool windowed;
+  char null9[40];
+};

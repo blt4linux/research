@@ -1,0 +1,5 @@
+struct std_map__luatypes
+{
+  std_pair__luatypes *begin;
+  char padding[16];
+};

@@ -1,0 +1,22 @@
+struct __attribute__((aligned(8))) SkinBones_vtable
+{
+  void (__fastcall *dtor1)(dsl::SkinBones *);
+  void (__fastcall *dtor2)(dsl::SkinBones *);
+  void (__fastcall *is_type)(dsl::SkinBones *, unsigned int);
+  void (__fastcall *type_id)(dsl::SkinBones *);
+  void (__fastcall *get_references)(dsl::SkinBones *, dsl::CloneList *);
+  void (__fastcall *clone_copy)(dsl::SkinBones *, dsl::Allocator *);
+  void (__fastcall *clone_patch)(dsl::SkinBones *, const dsl::CloneMapping *);
+  void (__fastcall *post_clone)(dsl::SkinBones *);
+  void (__fastcall *load)(dsl::SkinBones *, dsl::Archive *, dsl::ReferenceMap *);
+  void (__fastcall *save)(dsl::SkinBones *, dsl::Archive *, dsl::ReferenceMap *);
+  void (__fastcall *post_load)(dsl::SkinBones *);
+  void (__fastcall *set_object_database)(dsl::SkinBones *, dsl::ObjectDatabase *);
+  int (__fastcall *size)(const dsl::SkinBones *);
+  void (__fastcall *operator_array)(dsl::SkinBones *, int);
+  std_vector *(__fastcall *matrices)(const dsl::SkinBones *);
+  void (__fastcall *update)(dsl::SkinBones *);
+  void (__fastcall *set_skin_weight)(dsl::SkinBones *, float);
+  void (__fastcall *deallocate)(dsl::SkinBones *, dsl::Allocator *);
+  void *null9[999];
+};

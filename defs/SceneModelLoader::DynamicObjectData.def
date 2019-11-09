@@ -1,0 +1,8 @@
+struct __attribute__((aligned(2))) SceneModelLoader::DynamicObjectData
+{
+  char null1[200];
+  std_vector some_vector;
+  char null2[288];
+  BodyDatabase *body_database;
+  char null9[99999];
+};

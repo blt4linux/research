@@ -1,0 +1,6 @@
+struct __attribute__((aligned(8))) std_vector_dsl_Matrix4
+{
+  dsl::Matrix4 *begin;
+  dsl::Matrix4 *end;
+  dsl::Matrix4 *block_end;
+};

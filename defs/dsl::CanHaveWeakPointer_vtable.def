@@ -1,0 +1,8 @@
+struct dsl::CanHaveWeakPointer_vtable
+{
+  void *dtor1;
+  void *dtor2;
+  __int64 (__fastcall *dsl::CanHaveWeakPointer::was_released)(dsl::CanHaveWeakPointer *this);
+  __int64 (__fastcall *dsl::CanHaveWeakPointer::is_member_of)(const dsl::CanHaveWeakPointer *this, unsigned int);
+  __int64 (__fastcall *dsl::CanHaveWeakPointer::is_type)(const dsl::CanHaveWeakPointer *this, unsigned int);
+};

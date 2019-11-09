@@ -1,0 +1,15 @@
+struct dsl_PersistentObject_vtable
+{
+  void *dtor1;
+  void *dtor2;
+  int (__fastcall *is_type)(dsl::PersistentObject *, unsigned int);
+  int (__fastcall *type_id)(dsl::PersistentObject *);
+  int (__fastcall *get_references)(dsl::PersistentObject *, dsl::CloneList *);
+  int (__fastcall *clone_copy)(dsl::PersistentObject *, dsl::Allocator *);
+  int (__fastcall *clone_patch)(dsl::PersistentObject *, dsl::CloneMapping *);
+  int (__fastcall *post_clone)(dsl::PersistentObject *);
+  int (__fastcall *load)(dsl::PersistentObject *, dsl::Archive *, dsl::ReferenceMap *);
+  int (__fastcall *save)(dsl::Archive *, dsl::ReferenceMap *);
+  int (__fastcall *post_load)(dsl::PersistentObject *);
+  int (__fastcall *set_object_database)(dsl::ObjectDatabase *);
+};

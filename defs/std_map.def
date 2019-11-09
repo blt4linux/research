@@ -1,0 +1,5 @@
+struct std_map
+{
+  std_pair__pointers *begin;
+  char padding[16];
+};
