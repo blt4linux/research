@@ -7,7 +7,12 @@ if not idc.AskYN(1,("HIDECANCEL\nWARNING: If the import fails, it may break many
 			"Are you sure you want to continue")):
 	sys.exit("User aborted import")
 
-defs_path = "defs"
+base = os.path.dirname(os.path.abspath(__file__))
+fprefix = base + "/"
+
+print("Using file prefix " + fprefix)
+
+defs_path = fprefix + "defs"
 
 print("Starting import!")
 
@@ -61,7 +66,39 @@ def ReplaceType(name, struct):
 
 	# Run it
 	new_id = idc.Eval(command)
+        if type(new_id) is str:
+            print("Import error: " + new_id)
+        #print(str(new_id)[1:10])
 	print("Inserted type %s to index %d" % (name, new_id))
+	return new_id
+
+def PySetType(name, struct):
+	# The ID we're going to use insert the type at
+	target_id = None
+
+	# See if the type exists in the IDA database already.
+	# If so, delete it as IDA sometimes has trouble replacing types
+	# however it has no trouble overwriting a deleted type.
+	if name in name_ids:
+		target_id = name_ids[name]
+		SetLocalType(target_id, None, 0)
+	else:
+		# Otherwise, use -1 which automatically assigns a new ID if necessary
+		target_id = -1
+
+	# Make sure the name we've been supplied matches that of the struct's name when parsed
+	# This also serves to ensure the struct parses successfully
+	# Note we can only do this AFTER deleting the type if it already exists, otherwise we
+	# can get errors.
+	parsed_name = ParseType(struct, 0x200)[0]
+	assert name == parsed_name
+
+	# Run it
+	new_id = SetLocalType(target_id, struct, 0)
+        if type(new_id) is str:
+            print("Py Import error: " + new_id)
+        #print(str(new_id)[1:10])
+	print("Py Inserted type %s to index %d" % (name, new_id))
 	return new_id
 
 # Testing
@@ -71,9 +108,9 @@ def ReplaceType(name, struct):
 # First, insert any types not already in the database as a typedef to void*. The purpose of this is that otherwise,
 # IDA will complain if we use them before we get around to inserting them.
 for name in stored_definitions:
-	# Skip anything already in the DB
-	if name in name_ids:
-		continue
+	# # Skip anything already in the DB
+	# if name in name_ids:
+        #   continue
 
 	# Predefine it
 	print("Predefining %s" % name)
@@ -86,6 +123,6 @@ for name in stored_definitions:
 for name in stored_definitions:
 	contents = stored_definitions[name]
 	print("Importing %s" % name)
-	ReplaceType(name, contents)
+	PySetType(name, contents)
 
 print("Done!")
